@@ -1,0 +1,2567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="731px" height="1331px" style="background-color:transparent;background:transparent;color-scheme:light dark" content='&lt;mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9"&gt;
+  &lt;diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1"&gt;
+    &lt;mxGraphModel dx="3120" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker"&gt;
+      &lt;root&gt;
+        &lt;mxCell id="0" /&gt;
+        &lt;mxCell id="1" parent="0" /&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-1" value="oc_attribute" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1250" y="30" width="340" height="120" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-1"&gt;
+          &lt;mxGeometry y="30" width="340" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-3" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-2"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-4" value="attribute_id INT(11) NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-2"&gt;
+          &lt;mxGeometry x="30" width="310" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="310" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-1"&gt;
+          &lt;mxGeometry y="60" width="340" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-6" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-5"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-7" value="attribute_group_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-5"&gt;
+          &lt;mxGeometry x="30" width="310" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="310" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-1"&gt;
+          &lt;mxGeometry y="90" width="340" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-9" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-8"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-10" value="sort_order INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-8"&gt;
+          &lt;mxGeometry x="30" width="310" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="310" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-40" value="oc_attribute_description" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1250" y="430" width="230" height="150" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-40"&gt;
+          &lt;mxGeometry y="30" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-42" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-41"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-43" value="attribute_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-41"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-40"&gt;
+          &lt;mxGeometry y="60" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-45" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-44"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-46" value="language_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-44"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-40"&gt;
+          &lt;mxGeometry y="90" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-48" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-47"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-49" value="name VARCHAR(64) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-47"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-40"&gt;
+          &lt;mxGeometry y="120" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-51" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-50"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-52" value="duty TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-50"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-53" value="oc_attribute_description_pro" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1250" y="600" width="310" height="330" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="30" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-55" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-54"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-56" value="attribute_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-54"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-57" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="60" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-58" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-57"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-59" value="language_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-57"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-60" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="90" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-61" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-60"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-62" value="name VARCHAR(64) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-60"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="120" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-64" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-63"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-65" value="tooltip TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-63"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="150" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-67" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-66"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-68" value="duty TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-66"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="180" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-70" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-69"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-71" value="duty_tooltip TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-69"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="210" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-73" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-72"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-74" value="duty_image VARCHAR(255) DEFAULT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-72"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="240" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-76" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-75"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-77" value="duty_icon VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-75"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="270" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-79" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-78"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-80" value="duty_unit_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-78"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-53"&gt;
+          &lt;mxGeometry y="300" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-82" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-81"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-83" value="duty_status TINYINT(1) NOT NULL DEFAULT 1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-81"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-84" value="oc_attribute_group" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="30" width="320" height="90" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-85" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-84"&gt;
+          &lt;mxGeometry y="30" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-86" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-85"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-87" value="attribute_group_id INT(11) NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-85"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-88" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-84"&gt;
+          &lt;mxGeometry y="60" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-89" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-88"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-90" value="sort_order INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-88"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-91" value="oc_attribute_group_description" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="135" width="260" height="120" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-92" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-91"&gt;
+          &lt;mxGeometry y="30" width="260" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-93" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-92"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-94" value="attribute_group_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-92"&gt;
+          &lt;mxGeometry x="30" width="230" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="230" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-95" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-91"&gt;
+          &lt;mxGeometry y="60" width="260" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-96" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-95"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-97" value="language_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-95"&gt;
+          &lt;mxGeometry x="30" width="230" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="230" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-91"&gt;
+          &lt;mxGeometry y="90" width="260" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-99" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-98"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-100" value="name VARCHAR(64) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-98"&gt;
+          &lt;mxGeometry x="30" width="230" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="230" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-101" value="oc_attribute_interlink" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1280" y="1060" width="310" height="300" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="30" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-103" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-102"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-104" value="rule_id INT(11) NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-102"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="60" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-106" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-105"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-107" value="name VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-105"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-108" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="90" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-109" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-108"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-110" value="route VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-108"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-111" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="120" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-112" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-111"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-113" value="filter_alias VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-111"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="150" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-115" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-114"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-116" value="args VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-114"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-117" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="180" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-118" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-117"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-119" value="block_separator CHAR(20) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-117"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-120" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="210" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-121" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-120"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-122" value="between_separator CHAR(20) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-120"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-123" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="240" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-124" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-123"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-125" value="value_separator CHAR(20) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-123"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-126" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-101"&gt;
+          &lt;mxGeometry y="270" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-127" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-126"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-128" value="advance VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-126"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-129" value="oc_attribute_pro" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1250" y="170" width="320" height="240" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-130" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="30" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-131" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-130"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-132" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-130"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-133" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="60" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-134" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-133"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-135" value="attribute_group_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-133"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-139" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="90" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-140" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-139"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-141" value="image VARCHAR(255) DEFAULT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-139"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-142" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="120" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-143" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-142"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-144" value="icon VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-142"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-145" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="150" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-146" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-145"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-147" value="status TINYINT(1) NOT NULL DEFAULT 1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-145"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-148" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="180" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-149" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-148"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-150" value="url TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-148"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-279" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-129"&gt;
+          &lt;mxGeometry y="210" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-280" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-279"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-281" value="unit_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-279"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-151" value="oc_category_attribute" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="800" width="230" height="90" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-151"&gt;
+          &lt;mxGeometry y="30" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-153" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-152"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-154" value="attribute_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-152"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-155" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-151"&gt;
+          &lt;mxGeometry y="60" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-156" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-155"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-157" value="category_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-155"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-158" value="oc_product_attribute" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="280" width="230" height="150" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-159" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-158"&gt;
+          &lt;mxGeometry y="30" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-160" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-159"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-161" value="attribute_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-159"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-162" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-158"&gt;
+          &lt;mxGeometry y="60" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-163" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-162"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-164" value="product_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-162"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-165" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-158"&gt;
+          &lt;mxGeometry y="90" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-166" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-165"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-167" value="language_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-165"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-168" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-158"&gt;
+          &lt;mxGeometry y="120" width="230" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-169" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-168"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-170" value="text TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-168"&gt;
+          &lt;mxGeometry x="30" width="200" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="200" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-171" value="oc_product_attribute_pro" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="450" width="280" height="330" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-172" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="30" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-173" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-172"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-174" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-172"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-178" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="60" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-179" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-178"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-180" value="product_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-178"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-181" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="90" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-182" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-181"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-183" value="language_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-181"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-184" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="120" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-185" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-184"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-186" value="text TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-184"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-187" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="150" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-188" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-187"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-189" value="tooltip TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-187"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-190" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="180" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-191" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-190"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-192" value="image VARCHAR(255) DEFAULT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-190"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-193" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="210" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-194" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-193"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-195" value="icon VARCHAR(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-193"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-196" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="240" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-197" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-196"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-198" value="status TINYINT(1) NOT NULL DEFAULT 1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-196"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-199" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="270" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-200" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-199"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-201" value="url TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-199"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-276" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-171"&gt;
+          &lt;mxGeometry y="300" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-277" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-276"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-278" value="unit_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-276"&gt;
+          &lt;mxGeometry x="30" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-202" value="oc_product_to_category" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="910" width="320" height="120" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-203" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-202"&gt;
+          &lt;mxGeometry y="30" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-204" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-203"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-205" value="product_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-203"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-206" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-202"&gt;
+          &lt;mxGeometry y="60" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-207" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-206"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-208" value="category_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-206"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-209" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-202"&gt;
+          &lt;mxGeometry y="90" width="320" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-210" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-209"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-211" value="main_category TINYINT(1) NOT NULL DEFAULT 0" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-209"&gt;
+          &lt;mxGeometry x="30" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-212" value="oc_unit" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="1060" width="310" height="120" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-213" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-212"&gt;
+          &lt;mxGeometry y="30" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-214" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-213"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-215" value="unit_id INT(11) NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-213"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-216" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-212"&gt;
+          &lt;mxGeometry y="60" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-217" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-216"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-218" value="unit_group_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-216"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-219" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-212"&gt;
+          &lt;mxGeometry y="90" width="310" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-220" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-219"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-221" value="sort_order INT(3) DEFAULT 0" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-219"&gt;
+          &lt;mxGeometry x="30" width="280" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="280" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-222" value="ocstore302.oc_unit_description" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="1200" width="290" height="150" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-223" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-222"&gt;
+          &lt;mxGeometry y="30" width="290" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-224" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-223"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-225" value="unit_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-223"&gt;
+          &lt;mxGeometry x="30" width="260" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="260" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-226" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-222"&gt;
+          &lt;mxGeometry y="60" width="290" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-227" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-226"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-228" value="language_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-226"&gt;
+          &lt;mxGeometry x="30" width="260" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="260" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-229" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-222"&gt;
+          &lt;mxGeometry y="90" width="290" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-230" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-229"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-231" value="title VARCHAR(255) NOT NULL DEFAULT &amp;#39;&amp;#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-229"&gt;
+          &lt;mxGeometry x="30" width="260" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="260" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-232" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-222"&gt;
+          &lt;mxGeometry y="120" width="290" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-233" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-232"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-234" value="unit VARCHAR(32) NOT NULL DEFAULT &amp;#39;&amp;#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-232"&gt;
+          &lt;mxGeometry x="30" width="260" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="260" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-269" value="attribute_id INT(11) NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1220" y="200" width="290" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="290" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-272" value="attribute_id INT(11) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1610" y="480" width="250" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="250" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-273" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="1"&gt;
+          &lt;mxGeometry x="-1640" y="780" width="280" height="30" as="geometry" /&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-274" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8U5UfLoOYXjM8zdyvEVR-273"&gt;
+          &lt;mxGeometry width="30" height="30" as="geometry"&gt;
+            &lt;mxRectangle width="30" height="30" as="alternateBounds" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="8U5UfLoOYXjM8zdyvEVR-2" target="8U5UfLoOYXjM8zdyvEVR-152"&gt;
+          &lt;mxGeometry relative="1" as="geometry"&gt;
+            &lt;Array as="points"&gt;
+              &lt;mxPoint x="-1310" y="75" /&gt;
+              &lt;mxPoint x="-1310" y="845" /&gt;
+            &lt;/Array&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-291" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" target="8U5UfLoOYXjM8zdyvEVR-41"&gt;
+          &lt;mxGeometry width="100" height="100" relative="1" as="geometry"&gt;
+            &lt;mxPoint x="-1310" y="475" as="sourcePoint" /&gt;
+            &lt;mxPoint x="-1140" y="475" as="targetPoint" /&gt;
+            &lt;Array as="points"&gt;
+              &lt;mxPoint x="-1180" y="450" /&gt;
+              &lt;mxPoint x="-1180" y="460" /&gt;
+            &lt;/Array&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-292" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" target="8U5UfLoOYXjM8zdyvEVR-54"&gt;
+          &lt;mxGeometry width="100" height="100" relative="1" as="geometry"&gt;
+            &lt;mxPoint x="-1310" y="645" as="sourcePoint" /&gt;
+            &lt;mxPoint x="-1140" y="675" as="targetPoint" /&gt;
+            &lt;Array as="points"&gt;
+              &lt;mxPoint x="-1180" y="650" /&gt;
+              &lt;mxPoint x="-1180" y="660" /&gt;
+            &lt;/Array&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-295" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1"&gt;
+          &lt;mxGeometry width="100" height="100" relative="1" as="geometry"&gt;
+            &lt;mxPoint x="-1360" y="500" as="sourcePoint" /&gt;
+            &lt;mxPoint x="-1310" y="500" as="targetPoint" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-296" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" source="8U5UfLoOYXjM8zdyvEVR-159"&gt;
+          &lt;mxGeometry width="100" height="100" relative="1" as="geometry"&gt;
+            &lt;mxPoint x="-1360" y="320" as="sourcePoint" /&gt;
+            &lt;mxPoint x="-1310" y="325" as="targetPoint" /&gt;
+            &lt;Array as="points"&gt;
+              &lt;mxPoint x="-1360" y="110" /&gt;
+              &lt;mxPoint x="-1350" y="140" /&gt;
+            &lt;/Array&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+        &lt;mxCell id="8U5UfLoOYXjM8zdyvEVR-297" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" target="8U5UfLoOYXjM8zdyvEVR-130"&gt;
+          &lt;mxGeometry width="100" height="100" relative="1" as="geometry"&gt;
+            &lt;mxPoint x="-1310" y="217" as="sourcePoint" /&gt;
+            &lt;mxPoint x="-1250" y="212" as="targetPoint" /&gt;
+          &lt;/mxGeometry&gt;
+        &lt;/mxCell&gt;
+      &lt;/root&gt;
+    &lt;/mxGraphModel&gt;
+  &lt;/diagram&gt;
+&lt;/mxfile&gt;
+' version="1.1" viewBox="-.5 -.5 731 1331" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="mx-clip-390-30-30-30-0">
+   <rect x="390" y="30" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-30-304-30-0">
+   <rect x="426" y="30" width="304" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-60-304-30-0">
+   <rect x="426" y="60" width="304" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-90-304-30-0">
+   <rect x="426" y="90" width="304" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-390-430-30-30-0">
+   <rect x="390" y="430" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-430-194-30-0">
+   <rect x="426" y="430" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-460-194-30-0">
+   <rect x="426" y="460" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-490-194-30-0">
+   <rect x="426" y="490" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-520-194-30-0">
+   <rect x="426" y="520" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-390-600-30-30-0">
+   <rect x="390" y="600" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-600-274-30-0">
+   <rect x="426" y="600" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-630-274-30-0">
+   <rect x="426" y="630" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-660-274-30-0">
+   <rect x="426" y="660" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-690-274-30-0">
+   <rect x="426" y="690" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-720-274-30-0">
+   <rect x="426" y="720" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-750-274-30-0">
+   <rect x="426" y="750" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-780-274-30-0">
+   <rect x="426" y="780" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-810-274-30-0">
+   <rect x="426" y="810" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-840-274-30-0">
+   <rect x="426" y="840" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-870-274-30-0">
+   <rect x="426" y="870" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-30-30-30-0">
+   <rect y="30" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-30-284-30-0">
+   <rect x="36" y="30" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-60-284-30-0">
+   <rect x="36" y="60" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-135-30-30-0">
+   <rect y="135" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-135-224-30-0">
+   <rect x="36" y="135" width="224" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-165-224-30-0">
+   <rect x="36" y="165" width="224" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-195-224-30-0">
+   <rect x="36" y="195" width="224" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-360-1060-30-30-0">
+   <rect x="360" y="1060" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1060-274-30-0">
+   <rect x="396" y="1060" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1090-274-30-0">
+   <rect x="396" y="1090" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1120-274-30-0">
+   <rect x="396" y="1120" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1150-274-30-0">
+   <rect x="396" y="1150" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1180-274-30-0">
+   <rect x="396" y="1180" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1210-274-30-0">
+   <rect x="396" y="1210" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1240-274-30-0">
+   <rect x="396" y="1240" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1270-274-30-0">
+   <rect x="396" y="1270" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-396-1300-274-30-0">
+   <rect x="396" y="1300" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-390-170-30-30-0">
+   <rect x="390" y="170" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-200-284-30-0">
+   <rect x="426" y="200" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-230-284-30-0">
+   <rect x="426" y="230" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-260-284-30-0">
+   <rect x="426" y="260" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-290-284-30-0">
+   <rect x="426" y="290" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-320-284-30-0">
+   <rect x="426" y="320" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-350-284-30-0">
+   <rect x="426" y="350" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-800-30-30-0">
+   <rect y="800" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-800-194-30-0">
+   <rect x="36" y="800" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-830-194-30-0">
+   <rect x="36" y="830" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-280-30-30-0">
+   <rect y="280" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-280-194-30-0">
+   <rect x="36" y="280" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-310-194-30-0">
+   <rect x="36" y="310" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-340-194-30-0">
+   <rect x="36" y="340" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-370-194-30-0">
+   <rect x="36" y="370" width="194" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-450-30-30-0">
+   <rect y="450" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-480-244-30-0">
+   <rect x="36" y="480" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-510-244-30-0">
+   <rect x="36" y="510" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-540-244-30-0">
+   <rect x="36" y="540" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-570-244-30-0">
+   <rect x="36" y="570" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-600-244-30-0">
+   <rect x="36" y="600" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-630-244-30-0">
+   <rect x="36" y="630" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-660-244-30-0">
+   <rect x="36" y="660" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-690-244-30-0">
+   <rect x="36" y="690" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-720-244-30-0">
+   <rect x="36" y="720" width="244" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-910-284-30-0">
+   <rect x="36" y="910" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-940-284-30-0">
+   <rect x="36" y="940" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-970-284-30-0">
+   <rect x="36" y="970" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-1060-30-30-0">
+   <rect y="1060" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1060-274-30-0">
+   <rect x="36" y="1060" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1090-274-30-0">
+   <rect x="36" y="1090" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1120-274-30-0">
+   <rect x="36" y="1120" width="274" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-0-1200-30-30-0">
+   <rect y="1200" width="30" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1200-254-30-0">
+   <rect x="36" y="1200" width="254" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1230-254-30-0">
+   <rect x="36" y="1230" width="254" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1260-254-30-0">
+   <rect x="36" y="1260" width="254" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-1290-254-30-0">
+   <rect x="36" y="1290" width="254" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-426-170-284-30-0">
+   <rect x="426" y="170" width="284" height="30"/>
+  </clipPath>
+  <clipPath id="mx-clip-36-450-244-30-0">
+   <rect x="36" y="450" width="244" height="30"/>
+  </clipPath>
+ </defs>
+ <g data-cell-id="0">
+  <g data-cell-id="1">
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-1">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m390 30v-30h340v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m390 30v90h340v-90"/>
+      <path d="m390 30h340"/>
+      <path d="m420 30v30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="559.5" y="19.5">oc_attribute</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-2">
+     <path d="m390 30m340 0m0 30h-340" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-3">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="30" width="30" height="30"/>
+       <path d="m390 30m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-390-30-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="404.5" y="49.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-4">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="30" width="310" height="30"/>
+       <path d="m420 30m310 0m0 30m-310 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-30-304-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="427.5" y="49.5">attribute_id INT(11) NOT NULL AUTO_INCREMENT</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-5">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-6">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="60" width="30" height="30"/>
+       <path d="m390 60m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-7">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="60" width="310" height="30"/>
+       <path d="m420 60m310 0m0 30m-310 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-60-304-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="79.5">attribute_group_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-8">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-9">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="90" width="30" height="30"/>
+       <path d="m390 90m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-10">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="90" width="310" height="30"/>
+       <path d="m420 90m310 0m0 30m-310 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-90-304-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="109.5">sort_order INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-40">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m390 430v-30h230v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m390 430v120h230v-120"/>
+      <path d="m390 430h230"/>
+      <path d="m420 430v30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="504.5" y="419.5">oc_attribute_description</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-41">
+     <path d="m390 430m230 0m0 30h-230" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-42">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="430" width="30" height="30"/>
+       <path d="m390 430m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-390-430-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="404.5" y="449.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-43">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="430" width="200" height="30"/>
+       <path d="m420 430m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-430-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="427.5" y="449.5">attribute_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-44">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-45">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="460" width="30" height="30"/>
+       <path d="m390 460m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-46">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="460" width="200" height="30"/>
+       <path d="m420 460m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-460-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="479.5">language_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-47">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-48">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="490" width="30" height="30"/>
+       <path d="m390 490m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-49">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="490" width="200" height="30"/>
+       <path d="m420 490m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-490-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="509.5">name VARCHAR(64) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-50">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-51">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="520" width="30" height="30"/>
+       <path d="m390 520m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-52">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="520" width="200" height="30"/>
+       <path d="m420 520m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-520-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="539.5">duty TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-53">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m390 600v-30h310v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m390 600v300h310v-300"/>
+      <path d="m390 600h310"/>
+      <path d="m420 600v30 30 30 30 30 30 30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="544.5" y="589.5">oc_attribute_description_pro</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-54">
+     <path d="m390 600m310 0m0 30h-310" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-55">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="600" width="30" height="30"/>
+       <path d="m390 600m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-390-600-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="404.5" y="619.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-56">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="600" width="280" height="30"/>
+       <path d="m420 600m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-600-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="427.5" y="619.5">attribute_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-57">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-58">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="630" width="30" height="30"/>
+       <path d="m390 630m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-59">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="630" width="280" height="30"/>
+       <path d="m420 630m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-630-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="649.5">language_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-60">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-61">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="660" width="30" height="30"/>
+       <path d="m390 660m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-62">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="660" width="280" height="30"/>
+       <path d="m420 660m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-660-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="679.5">name VARCHAR(64) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-63">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-64">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="690" width="30" height="30"/>
+       <path d="m390 690m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-65">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="690" width="280" height="30"/>
+       <path d="m420 690m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-690-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="709.5">tooltip TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-66">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-67">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="720" width="30" height="30"/>
+       <path d="m390 720m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-68">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="720" width="280" height="30"/>
+       <path d="m420 720m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-720-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="739.5">duty TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-69">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-70">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="750" width="30" height="30"/>
+       <path d="m390 750m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-71">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="750" width="280" height="30"/>
+       <path d="m420 750m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-750-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="769.5">duty_tooltip TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-72">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-73">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="780" width="30" height="30"/>
+       <path d="m390 780m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-74">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="780" width="280" height="30"/>
+       <path d="m420 780m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-780-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="799.5">duty_image VARCHAR(255) DEFAULT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-75">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-76">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="810" width="30" height="30"/>
+       <path d="m390 810m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-77">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="810" width="280" height="30"/>
+       <path d="m420 810m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-810-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="829.5">duty_icon VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-78">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-79">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="840" width="30" height="30"/>
+       <path d="m390 840m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-80">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="840" width="280" height="30"/>
+       <path d="m420 840m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-840-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="859.5">duty_unit_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-81">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-82">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="870" width="30" height="30"/>
+       <path d="m390 870m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-83">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="870" width="280" height="30"/>
+       <path d="m420 870m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-870-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="889.5">duty_status TINYINT(1) NOT NULL DEFAULT 1</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-84">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 30v-30h320v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 30v60h320v-60"/>
+      <path d="m0 30h320"/>
+      <path d="m30 30v30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="159.5" y="19.5">oc_attribute_group</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-85">
+     <path d="m0 30m320 0m0 30h-320" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-86">
+      <g fill="none" pointer-events="all">
+       <rect y="30" width="30" height="30"/>
+       <path d="m0 30m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-30-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="49.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-87">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="30" width="290" height="30"/>
+       <path d="m30 30m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-30-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="37.5" y="49.5">attribute_group_id INT(11) NOT NULL AUTO_INCREMENT</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-88">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-89">
+      <g fill="none" pointer-events="all">
+       <rect y="60" width="30" height="30"/>
+       <path d="m0 60m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-90">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="60" width="290" height="30"/>
+       <path d="m30 60m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-60-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="79.5">sort_order INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-91">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 135v-30h260v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 135v90h260v-90"/>
+      <path d="m0 135h260"/>
+      <path d="m30 135v30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="129.5" y="124.5">oc_attribute_group_description</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-92">
+     <path d="m0 135m260 0m0 30h-260" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-93">
+      <g fill="none" pointer-events="all">
+       <rect y="135" width="30" height="30"/>
+       <path d="m0 135m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-135-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="154.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-94">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="135" width="230" height="30"/>
+       <path d="m30 135m230 0m0 30m-230 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-135-224-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="37.5" y="154.5">attribute_group_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-95">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-96">
+      <g fill="none" pointer-events="all">
+       <rect y="165" width="30" height="30"/>
+       <path d="m0 165m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-97">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="165" width="230" height="30"/>
+       <path d="m30 165m230 0m0 30m-230 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-165-224-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="184.5">language_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-98">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-99">
+      <g fill="none" pointer-events="all">
+       <rect y="195" width="30" height="30"/>
+       <path d="m0 195m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-100">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="195" width="230" height="30"/>
+       <path d="m30 195m230 0m0 30m-230 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-195-224-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="214.5">name VARCHAR(64) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-101">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m360 1060v-30h310v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m360 1060v270h310v-270"/>
+      <path d="m360 1060h310"/>
+      <path d="m390 1060v30 30 30 30 30 30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="514.5" y="1049.5">oc_attribute_interlink</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-102">
+     <path d="m360 1060m310 0m0 30h-310" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-103">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1060" width="30" height="30"/>
+       <path d="m360 1060m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-360-1060-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="374.5" y="1079.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-104">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1060" width="280" height="30"/>
+       <path d="m390 1060m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1060-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="397.5" y="1079.5">rule_id INT(11) NOT NULL AUTO_INCREMENT</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-105">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-106">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1090" width="30" height="30"/>
+       <path d="m360 1090m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-107">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1090" width="280" height="30"/>
+       <path d="m390 1090m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1090-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1109.5">name VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-108">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-109">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1120" width="30" height="30"/>
+       <path d="m360 1120m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-110">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1120" width="280" height="30"/>
+       <path d="m390 1120m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1120-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1139.5">route VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-111">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-112">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1150" width="30" height="30"/>
+       <path d="m360 1150m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-113">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1150" width="280" height="30"/>
+       <path d="m390 1150m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1150-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1169.5">filter_alias VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-114">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-115">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1180" width="30" height="30"/>
+       <path d="m360 1180m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-116">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1180" width="280" height="30"/>
+       <path d="m390 1180m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1180-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1199.5">args VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-117">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-118">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1210" width="30" height="30"/>
+       <path d="m360 1210m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-119">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1210" width="280" height="30"/>
+       <path d="m390 1210m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1210-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1229.5">block_separator CHAR(20) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-120">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-121">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1240" width="30" height="30"/>
+       <path d="m360 1240m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-122">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1240" width="280" height="30"/>
+       <path d="m390 1240m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1240-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1259.5">between_separator CHAR(20) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-123">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-124">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1270" width="30" height="30"/>
+       <path d="m360 1270m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-125">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1270" width="280" height="30"/>
+       <path d="m390 1270m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1270-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1289.5">value_separator CHAR(20) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-126">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-127">
+      <g fill="none" pointer-events="all">
+       <rect x="360" y="1300" width="30" height="30"/>
+       <path d="m360 1300m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-128">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="1300" width="280" height="30"/>
+       <path d="m390 1300m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-396-1300-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="397.5" y="1319.5">advance VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-129">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m390 170v-30h320v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m390 170v210h320v-210"/>
+      <path d="m390 170h320"/>
+      <path d="m420 170v30 30 30 30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="549.5" y="159.5">oc_attribute_pro</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-130">
+     <path d="m390 170m320 0m0 30h-320" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-131">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="170" width="30" height="30"/>
+       <path d="m390 170m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-390-170-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="404.5" y="189.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-132">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="170" width="290" height="30"/>
+       <path d="m420 170m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-133">
+     <path d="m390 200m320 0m0 30h-320" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-134">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="200" width="30" height="30"/>
+       <path d="m390 200m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-135">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="200" width="290" height="30"/>
+       <path d="m420 200m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-200-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="219.5">attribute_group_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-139">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-140">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="230" width="30" height="30"/>
+       <path d="m390 230m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-141">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="230" width="290" height="30"/>
+       <path d="m420 230m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-230-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="249.5">image VARCHAR(255) DEFAULT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-142">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-143">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="260" width="30" height="30"/>
+       <path d="m390 260m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-144">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="260" width="290" height="30"/>
+       <path d="m420 260m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-260-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="279.5">icon VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-145">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-146">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="290" width="30" height="30"/>
+       <path d="m390 290m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-147">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="290" width="290" height="30"/>
+       <path d="m420 290m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-290-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="309.5">status TINYINT(1) NOT NULL DEFAULT 1</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-148">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-149">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="320" width="30" height="30"/>
+       <path d="m390 320m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-150">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="320" width="290" height="30"/>
+       <path d="m420 320m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-320-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="339.5">url TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-279">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-280">
+      <g fill="none" pointer-events="all">
+       <rect x="390" y="350" width="30" height="30"/>
+       <path d="m390 350m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-281">
+      <g fill="none" pointer-events="all">
+       <rect x="420" y="350" width="290" height="30"/>
+       <path d="m420 350m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-426-350-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="427.5" y="369.5">unit_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-151">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 800v-30h230v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 800v60h230v-60"/>
+      <path d="m0 800h230"/>
+      <path d="m30 800v30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="114.5" y="789.5">oc_category_attribute</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-152">
+     <path d="m0 800m230 0m0 30h-230" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-153">
+      <g fill="none" pointer-events="all">
+       <rect y="800" width="30" height="30"/>
+       <path d="m0 800m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-800-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="819.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-154">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="800" width="200" height="30"/>
+       <path d="m30 800m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-800-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="37.5" y="819.5">attribute_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-155">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-156">
+      <g fill="none" pointer-events="all">
+       <rect y="830" width="30" height="30"/>
+       <path d="m0 830m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-157">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="830" width="200" height="30"/>
+       <path d="m30 830m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-830-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="849.5">category_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-158">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 280v-30h230v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 280v120h230v-120"/>
+      <path d="m0 280h230"/>
+      <path d="m30 280v30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="114.5" y="269.5">oc_product_attribute</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-159">
+     <path d="m0 280m230 0m0 30h-230" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-160">
+      <g fill="none" pointer-events="all">
+       <rect y="280" width="30" height="30"/>
+       <path d="m0 280m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-280-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="299.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-161">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="280" width="200" height="30"/>
+       <path d="m30 280m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-280-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="37.5" y="299.5">attribute_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-162">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-163">
+      <g fill="none" pointer-events="all">
+       <rect y="310" width="30" height="30"/>
+       <path d="m0 310m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-164">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="310" width="200" height="30"/>
+       <path d="m30 310m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-310-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="329.5">product_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-165">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-166">
+      <g fill="none" pointer-events="all">
+       <rect y="340" width="30" height="30"/>
+       <path d="m0 340m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-167">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="340" width="200" height="30"/>
+       <path d="m30 340m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-340-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="359.5">language_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-168">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-169">
+      <g fill="none" pointer-events="all">
+       <rect y="370" width="30" height="30"/>
+       <path d="m0 370m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-170">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="370" width="200" height="30"/>
+       <path d="m30 370m200 0m0 30m-200 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-370-194-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="389.5">text TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-171">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 450v-30h280v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 450v300h280v-300"/>
+      <path d="m0 450h280"/>
+      <path d="m30 450v30 30 30 30 30 30 30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="139.5" y="439.5">oc_product_attribute_pro</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-172">
+     <path d="m0 450m280 0m0 30h-280" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-173">
+      <g fill="none" pointer-events="all">
+       <rect y="450" width="30" height="30"/>
+       <path d="m0 450m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-450-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="469.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-174">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="450" width="250" height="30"/>
+       <path d="m30 450m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-178">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-179">
+      <g fill="none" pointer-events="all">
+       <rect y="480" width="30" height="30"/>
+       <path d="m0 480m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-180">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="480" width="250" height="30"/>
+       <path d="m30 480m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-480-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="499.5">product_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-181">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-182">
+      <g fill="none" pointer-events="all">
+       <rect y="510" width="30" height="30"/>
+       <path d="m0 510m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-183">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="510" width="250" height="30"/>
+       <path d="m30 510m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-510-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="529.5">language_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-184">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-185">
+      <g fill="none" pointer-events="all">
+       <rect y="540" width="30" height="30"/>
+       <path d="m0 540m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-186">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="540" width="250" height="30"/>
+       <path d="m30 540m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-540-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="559.5">text TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-187">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-188">
+      <g fill="none" pointer-events="all">
+       <rect y="570" width="30" height="30"/>
+       <path d="m0 570m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-189">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="570" width="250" height="30"/>
+       <path d="m30 570m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-570-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="589.5">tooltip TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-190">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-191">
+      <g fill="none" pointer-events="all">
+       <rect y="600" width="30" height="30"/>
+       <path d="m0 600m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-192">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="600" width="250" height="30"/>
+       <path d="m30 600m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-600-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="619.5">image VARCHAR(255) DEFAULT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-193">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-194">
+      <g fill="none" pointer-events="all">
+       <rect y="630" width="30" height="30"/>
+       <path d="m0 630m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-195">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="630" width="250" height="30"/>
+       <path d="m30 630m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-630-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="649.5">icon VARCHAR(255) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-196">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-197">
+      <g fill="none" pointer-events="all">
+       <rect y="660" width="30" height="30"/>
+       <path d="m0 660m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-198">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="660" width="250" height="30"/>
+       <path d="m30 660m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-660-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="679.5">status TINYINT(1) NOT NULL DEFAULT 1</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-199">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-200">
+      <g fill="none" pointer-events="all">
+       <rect y="690" width="30" height="30"/>
+       <path d="m0 690m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-201">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="690" width="250" height="30"/>
+       <path d="m30 690m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-690-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="709.5">url TEXT NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-276">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-277">
+      <g fill="none" pointer-events="all">
+       <rect y="720" width="30" height="30"/>
+       <path d="m0 720m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-278">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="720" width="250" height="30"/>
+       <path d="m30 720m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-720-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="739.5">unit_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-202">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 910v-30h320v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 910v90h320v-90"/>
+      <path d="m0 910h320"/>
+      <path d="m30 910v30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="159.5" y="899.5">oc_product_to_category</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-203">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-204">
+      <g fill="none" pointer-events="all">
+       <rect y="910" width="30" height="30"/>
+       <path d="m0 910m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-205">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="910" width="290" height="30"/>
+       <path d="m30 910m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-910-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="929.5">product_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-206">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-207">
+      <g fill="none" pointer-events="all">
+       <rect y="940" width="30" height="30"/>
+       <path d="m0 940m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-208">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="940" width="290" height="30"/>
+       <path d="m30 940m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-940-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="959.5">category_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-209">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-210">
+      <g fill="none" pointer-events="all">
+       <rect y="970" width="30" height="30"/>
+       <path d="m0 970m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-211">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="970" width="290" height="30"/>
+       <path d="m30 970m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-970-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="989.5">main_category TINYINT(1) NOT NULL DEFAULT 0</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-212">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 1060v-30h310v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 1060v90h310v-90"/>
+      <path d="m0 1060h310"/>
+      <path d="m30 1060v30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="154.5" y="1049.5">oc_unit</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-213">
+     <path d="m0 1060m310 0m0 30h-310" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-214">
+      <g fill="none" pointer-events="all">
+       <rect y="1060" width="30" height="30"/>
+       <path d="m0 1060m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-1060-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="1079.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-215">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1060" width="280" height="30"/>
+       <path d="m30 1060m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1060-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="37.5" y="1079.5">unit_id INT(11) NOT NULL AUTO_INCREMENT</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-216">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-217">
+      <g fill="none" pointer-events="all">
+       <rect y="1090" width="30" height="30"/>
+       <path d="m0 1090m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-218">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1090" width="280" height="30"/>
+       <path d="m30 1090m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1090-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="1109.5">unit_group_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-219">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-220">
+      <g fill="none" pointer-events="all">
+       <rect y="1120" width="30" height="30"/>
+       <path d="m0 1120m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-221">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1120" width="280" height="30"/>
+       <path d="m30 1120m280 0m0 30m-280 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1120-274-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="1139.5">sort_order INT(3) DEFAULT 0</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-222">
+    <g stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-miterlimit="10">
+     <path d="m0 1200v-30h290v30" fill="light-dark(#ffffff, var(--ge-dark-color, #121212))" pointer-events="all"/>
+     <g fill="none" pointer-events="none">
+      <path d="m0 1200v120h290v-120"/>
+      <path d="m0 1200h290"/>
+      <path d="m30 1200v30 30 30 30"/>
+     </g>
+    </g>
+    <g fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+     <text x="144.5" y="1189.5">ocstore302.oc_unit_description</text>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-223">
+     <path d="m0 1200m290 0m0 30h-290" fill="none" pointer-events="none" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-224">
+      <g fill="none" pointer-events="all">
+       <rect y="1200" width="30" height="30"/>
+       <path d="m0 1200m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-0-1200-30-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-anchor="middle">
+       <text x="14.5" y="1219.5">PK</text>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-225">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1200" width="260" height="30"/>
+       <path d="m30 1200m260 0m0 30m-260 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1200-254-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+       <text x="37.5" y="1219.5">unit_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-226">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-227">
+      <g fill="none" pointer-events="all">
+       <rect y="1230" width="30" height="30"/>
+       <path d="m0 1230m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-228">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1230" width="260" height="30"/>
+       <path d="m30 1230m260 0m0 30m-260 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1230-254-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="1249.5">language_id INT(11) NOT NULL</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-229">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-230">
+      <g fill="none" pointer-events="all">
+       <rect y="1260" width="30" height="30"/>
+       <path d="m0 1260m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-231">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1260" width="260" height="30"/>
+       <path d="m30 1260m260 0m0 30m-260 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1260-254-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="1279.5">title VARCHAR(255) NOT NULL DEFAULT ''</text>
+      </g>
+     </g>
+    </g>
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-232">
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-233">
+      <g fill="none" pointer-events="all">
+       <rect y="1290" width="30" height="30"/>
+       <path d="m0 1290m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+     </g>
+     <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-234">
+      <g fill="none" pointer-events="all">
+       <rect x="30" y="1290" width="260" height="30"/>
+       <path d="m30 1290m260 0m0 30m-260 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+      </g>
+      <g clip-path="url(#mx-clip-36-1290-254-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px">
+       <text x="37.5" y="1309.5">unit VARCHAR(32) NOT NULL DEFAULT ''</text>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-269">
+    <g fill="none" pointer-events="all">
+     <rect x="420" y="170" width="290" height="30"/>
+     <path d="m420 170m290 0m0 30m-290 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+    </g>
+    <g clip-path="url(#mx-clip-426-170-284-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+     <text x="427.5" y="189.5">attribute_id INT(11) NOT NULL AUTO_INCREMENT</text>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-272">
+    <g fill="none" pointer-events="all">
+     <rect x="30" y="450" width="250" height="30"/>
+     <path d="m30 450m250 0m0 30m-250 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+    </g>
+    <g clip-path="url(#mx-clip-36-450-244-30-0)" fill="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" font-family='"Helvetica"' font-size="12px" font-weight="bold" text-decoration="underline">
+     <text x="37.5" y="469.5">attribute_id INT(11) NOT NULL</text>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-273">
+    <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-274">
+     <g fill="none" pointer-events="all">
+      <rect y="750" width="30" height="30"/>
+      <path d="m0 750m30 0m0 30m-30 0" stroke="light-dark(rgb(0, 0, 0), rgb(255, 255, 255))" stroke-linecap="square" stroke-miterlimit="10"/>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-288">
+    <g stroke="light-dark(rgb(178, 0, 0), rgb(178, 0, 0))" stroke-miterlimit="10">
+     <path d="m390 45h-60v770h-93.63" fill="none" pointer-events="stroke"/>
+     <path d="m231.12 815 7-3.5-1.75 3.5 1.75 3.5z" fill="light-dark(rgb(178, 0, 0), rgb(178, 0, 0))" pointer-events="all"/>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-291">
+    <g stroke="light-dark(rgb(199, 53, 0), rgb(199, 53, 0))">
+     <path d="m330 445h20q10 0 20 0h20" fill="none" pointer-events="stroke" stroke-miterlimit="10"/>
+     <g pointer-events="all">
+      <path d="m334 441v8" fill="none" stroke-miterlimit="10"/>
+      <ellipse cx="378" cy="445" rx="3" ry="3" fill="light-dark(rgb(255, 255, 255), rgb(255, 255, 255))"/>
+      <path d="m390 441-8 4 8 4" fill="none" stroke-miterlimit="10"/>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-292">
+    <g stroke="light-dark(rgb(199, 53, 0), rgb(199, 53, 0))">
+     <path d="m330 615h20q10 0 20 0h20" fill="none" pointer-events="stroke" stroke-miterlimit="10"/>
+     <g pointer-events="all">
+      <path d="m334 611v8" fill="none" stroke-miterlimit="10"/>
+      <ellipse cx="378" cy="615" rx="3" ry="3" fill="light-dark(rgb(255, 255, 255), rgb(255, 255, 255))"/>
+      <path d="m390 611-8 4 8 4" fill="none" stroke-miterlimit="10"/>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-295">
+    <g stroke="light-dark(rgb(199, 53, 0), rgb(199, 53, 0))">
+     <path d="m280 470h30-10 30" fill="none" pointer-events="stroke" stroke-miterlimit="10"/>
+     <g pointer-events="all">
+      <ellipse cx="292" cy="470" rx="3" ry="3" fill="light-dark(rgb(255, 255, 255), rgb(255, 255, 255))"/>
+      <path d="m280 474 8-4-8-4" fill="none" stroke-miterlimit="10"/>
+      <ellipse cx="318" cy="470" rx="3" ry="3" fill="light-dark(rgb(255, 255, 255), rgb(255, 255, 255))"/>
+      <path d="m330 466-8 4 8 4" fill="none" stroke-miterlimit="10"/>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-296">
+    <g stroke="light-dark(rgb(199, 53, 0), rgb(199, 53, 0))">
+     <path d="m230 295h30 40 30" fill="none" pointer-events="stroke" stroke-miterlimit="10"/>
+     <g pointer-events="all">
+      <ellipse cx="242" cy="295" rx="3" ry="3" fill="light-dark(rgb(255, 255, 255), rgb(255, 255, 255))"/>
+      <path d="m230 299 8-4-8-4" fill="none" stroke-miterlimit="10"/>
+      <ellipse cx="318" cy="295" rx="3" ry="3" fill="light-dark(rgb(255, 255, 255), rgb(255, 255, 255))"/>
+      <path d="m330 291-8 4 8 4" fill="none" stroke-miterlimit="10"/>
+     </g>
+    </g>
+   </g>
+   <g data-cell-id="8U5UfLoOYXjM8zdyvEVR-297">
+    <g fill="none" stroke="light-dark(rgb(199, 53, 0), rgb(199, 53, 0))" stroke-miterlimit="10">
+     <path d="m330 187h30v-1-1h30" pointer-events="stroke"/>
+     <path d="m334 183v8m4-8v8" pointer-events="all"/>
+     <path d="m386 189v-8m-4 8v-8" pointer-events="all"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
