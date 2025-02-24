@@ -29,29 +29,23 @@ A parent node or ancestor is a node located at the first level of hierarchy.
 |№|Tab|Name|Description|
 |---|---|---|---|
 |`1`|Attributes|Attribute Groups|The main tree where all manipulations with Groups, Attributes, and Values can be performed—editing, sorting, searching, deleting, and adding.|
-|`2`|Default Templates|Default Templates|A tree for working with [Default Templates](general-info/duty.md). Editing and searching.|
-|`3`|Category Attributes|Categories|A category structure displayed in a tree format.|
-|`4`|Category Attributes|Attributes|A tree similar to Attribute Groups, used for dragging and dropping a selected attribute into the desired category using Drag-and-Drop or copying via Copy-Paste. It is recommended to include the _Default Templates_ child node in the structure to remind users which Values will be added to the product when an Attribute is added to a category.|
-|`5`|Category Attributes|Category Attributes|A tree that shows a category with all its assigned Attributes, Templates, and Values. Here, Attributes can be added or removed.|
-|`6`|Products|Product Attributes|A tree similar to Attribute Groups, used for selecting an Attribute, Template, or Value and filtering products based on the selection.|
-|`7`|Products|Products|A tree that displays products for a selected Attribute, Template, or Value. To the right of the product name, the product ID in the database and model are displayed in parentheses. Double-clicking on a selected product redirects to the product page.|
+|`2`|Category Attributes|Categories|A category structure displayed in a tree format.|
+|`3`|Category Attributes|Attributes|A tree similar to Attribute Groups, used for dragging and dropping a selected attribute into the desired category using Drag-and-Drop or copying via Copy-Paste. It is recommended to include the _Default Templates_ child node in the structure to remind users which Values will be added to the product when an Attribute is added to a category.|
+|`4`|Category Attributes|Category Attributes|A tree that shows a category with all its assigned Attributes, Templates, and Values. Here, Attributes can be added or removed.|
+|`5`|Products|Product Attributes|A tree similar to Attribute Groups, used for selecting an Attribute, Template, or Value and filtering products based on the selection.|
+|`6`|Products|Products|A tree that displays products for a selected Attribute, Template, or Value. To the right of the product name, the product ID in the database and model are displayed in parentheses. Double-clicking on a selected product redirects to the product page.|
 
 ### Attributes Tab
 
 | ![Trees](/img/tutorial/tree1.png) |
 |-|
 
-### Default Templates Tab
-
-| ![Trees](/img/tutorial/tree2.png) |
-|-|
-
 ### Category Attributes Tab
 
-| ![Trees](/img/tutorial/tree3.png) |
+| ![Trees](/img/tutorial/tree3_3_3_2.png) |
 |-|
 
 ### Products Tab
 
-| ![Trees](/img/tutorial/tree4.png) |
+| ![Trees](/img/tutorial/tree4_3_3_2.png) |
 |-|
