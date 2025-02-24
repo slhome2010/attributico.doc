@@ -17,8 +17,8 @@ Attributico_v3.3.2/
 │             └── system/
 │                  └── library/
 │                       └── attributico/
-│                             ├── array_column.php
-│                             └── attributico.php
+│                             ├── attributico.php
+│                             └── interlink.php
 │── PHP7.1│       
 │       └── upload_v3.x/
 │
