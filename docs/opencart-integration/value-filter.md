@@ -6,7 +6,7 @@ sidebar_position: 3
 
 In stores with a large number of products, **Attributes**, and their **Values**, the list linked to the selection field can become very long. This can cause inconvenience when filling out the table. The filter allows you to limit the list.
 
-| ![attribute](/img/tutorial/value_filter.png) |
+| ![attribute](/img/tutorial/en/value_filter_en.png) |
 |:--:|
 | *List Filter* |
 

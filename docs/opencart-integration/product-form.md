@@ -16,13 +16,13 @@ You are the one who decides whether to save the changes or not.
 
 If the modification is applied correctly, the **Attribut&co** menu item should appear in the *Catalog ⇒ Attributes* section of the admin panel sidebar, and additional control buttons should appear in the product form.
 
-| ![attribute](/img/tutorial/servpanel.png) |
+| ![attribute](/img/tutorial/en/service_panel_en.png) |
 |:--:|
 | *Service panel* |
 
 On the right side of the table, above the text area for each language, a **Value** selection field from a dropdown list should appear.
 
-| ![attribute](/img/tutorial/modified_textarea.png) |
+| ![attribute](/img/tutorial/en/select_in_textarea_en.png) |
 |:--:|
 | *Modified textarea* |
 

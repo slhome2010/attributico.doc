@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Depending on which button is pressed, either **Templates** or **Values** will be displayed in the selection field.
 
-| ![attribute](/img/tutorial/list_view_switch.png) |
+| ![attribute](/img/tutorial/en/list_view_switch_en.png) |
 |:--:|
 | *List View Switch* |
 
