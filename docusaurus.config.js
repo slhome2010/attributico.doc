@@ -82,6 +82,10 @@ const config = {
               label: "v3.3.2",
               //path: "1.0.0",
             },
+            "3.3.3": {
+              label: "v3.3.3",
+              //path: "1.0.0",
+            },
           },
           // includeCurrentVersion: false,
         },        
