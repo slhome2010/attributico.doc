@@ -18,11 +18,11 @@ We need to remove **Attribute** `Test Attribute 3.1` from all products where it 
 
 If we did this manually, we would have to open each product, review the list of **Attributes** and **Values**, and click **Delete** if the value matches `test value 3.2.1`.
 
-| ![Manually deleting Values](/img/tutorial/product1.jpg) |
+| ![Manually deleting Values](/img/tutorial/en/delete_value_en.png) |
 |:--:|
 | *Manually deleting Values* |
 
-| ![Manually no deleting Values](/img/tutorial/product2.jpg) |
+| ![Manually no deleting Values](/img/tutorial/en/no_delete_value_en.png) |
 |:--:|
 | *Manually no deleting Values* |
 
@@ -30,7 +30,7 @@ Now, this operation can be performed with a single click for all products.
 
 Everything would be simple if a product had only one **Value** per **Attribute**, but often, there are [multiple values](/general-info/values-templates.md). What if we also have products where **Attribute** `Test Attribute 3.1` has **Value** `test value 3.2.1/test value 3.2.2`? Should we delete it or keep it?
 
-| ![Deleting multiple values](/img/tutorial/product3.jpg) |
+| ![Deleting multiple values](/img/tutorial/en/delete_or_not_delete_en.png) |
 |:--:|
 | *Deleting multiple values* |
 
@@ -42,13 +42,13 @@ Deleting **Values** (nodes under **Values**) depends on the [Value Comparison](/
 
 In any case, deletion is performed by checking if the **Value** sample exists in the product's field. The setting allows comparison with each **Value** separated by a delimiter.
 
-| ![Auto deleting Template](/img/tutorial/product4.jpg) |
+| ![Auto deleting Template](/img/tutorial/en/by_exact_match_en.png) |
 |:--:|
-| *Auto deleting Template* |
+| *By Exact Match* |
 
-| ![Auto deleting Value](/img/tutorial/product5.jpg) |
+| ![Auto deleting Value](/img/tutorial/en/by_substring_match_en.png) |
 |:--:|
-| *Auto deleting Value* |
+| *By Substring Matching* |
 
 ## Difference Between Deleting **Templates** and **Values**
 

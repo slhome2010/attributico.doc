@@ -44,11 +44,11 @@ sidebar_position: 4
 
 | ![Auto deleting Template](/img/tutorial/product4.jpg) |
 |:--:|
-| *Auto deleting Template* |
+| *By Exact Match* |
 
 | ![Auto deleting Value](/img/tutorial/product5.jpg) |
 |:--:|
-| *Auto deleting Value* |
+| *By Substring Matching* |
 
 ## Разница между удалением **Шаблонов** и **Значений**
 

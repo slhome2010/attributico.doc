@@ -42,7 +42,7 @@ This means the search won't occur with every typed letter. Instead, after enteri
 
 The filter search bar now appears as follows:
 
-| ![Search filter](/img/tutorial/search_filter.png) |
+| ![Search filter](/img/tutorial/en/search_filter_en.png) |
 |:--:|
 | *Search filter* |
 
