@@ -11,7 +11,7 @@ sidebar_position: 8
 
 - Update the module cache;
 - Check for updates;
-- Save settings without exiting the module;
+- Apply settings without exiting the module;
 - Save settings and exit;
 - Exit without saving;
 
