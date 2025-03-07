@@ -42,7 +42,7 @@ sidebar_position: 11
 
 Поисковая строка фильтра теперь выглядит так:
 
-| ![Search filter](/img/tutorial/search_filter.png) |
+| ![Search filter](/img/tutorial/en/search_filter_en.png) |
 |:--:|
 | *Search filter* |
 

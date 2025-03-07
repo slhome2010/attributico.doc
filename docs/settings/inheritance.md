@@ -22,11 +22,11 @@ When hierarchy mode is enabled, the reverse rule also applies – if all child c
 
 Given the above, if recursion and hierarchy are not needed, and a custom set of categories is required, the **Auto-selection of subcategories with hierarchy consideration** mode should be disabled. For quick control over this mode, in the **Categories** tree, the **Settings** context menu includes the **Consider hierarchy** option.  
 
-| ![Hierarchical multi-selection](/img/tutorial/hier_category.jpg) |
+| ![Hierarchical multi-selection](/img/tutorial/en/inheritance_en.png) |
 | - |
 | *Hierarchical multi-selection* |  
 
-| ![Hierarchical operate](/img/tutorial/hier_operative.jpg) |  
+| ![Hierarchical operate](/img/tutorial/en/inheritance_set_en.png) |  
 | - |
 | *Hierarchical operate* |
 
