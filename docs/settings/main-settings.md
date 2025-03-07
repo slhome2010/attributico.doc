@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # General Settings
 
-| ![Attributico General Settings](/img/tutorial/main_settings.png) |
+| ![Attributico General Settings](/img/tutorial/en/main_settings_en.png) |
 |:--:|
 | *Attributico general settings* |
 

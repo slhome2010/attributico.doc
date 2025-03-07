@@ -2,7 +2,7 @@
 sidebar_position: 23
 ---
 
-# Update Process
+# Update
 
 ## Step 1: Copy New Files
 

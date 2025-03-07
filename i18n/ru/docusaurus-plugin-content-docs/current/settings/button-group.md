@@ -6,7 +6,7 @@ sidebar_position: 8
 
 | ![Группа кнопок](/img/tutorial/button_group_3_3_2.png) |
 |:--:|
-| *Buttons group* |
+| *Button group* |
 
 **Назначение кнопок слева направо.**
 
@@ -20,7 +20,7 @@ sidebar_position: 8
 
 | ![Группа кнопок c индикатором загрузки](/img/tutorial/buttons_group_loading.png) |
 |:--:|
-| *Buttons with loading indicator* |
+| *Button with loading indicator* |
 
 :::warning
 Кнопки нужны только для сохранения настроек. Все изменения в узлах сразу синхронно записываются в Базу Данных.

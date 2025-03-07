@@ -6,7 +6,7 @@ sidebar_position: 8
 
 | ![Button Group](/img/tutorial/button_group_3_3_2.png) |
 |:--:|
-| *Buttons group* |
+| *Button group* |
 
 **Button functions from left to right:**
 
@@ -18,9 +18,9 @@ sidebar_position: 8
 
 The buttons now include a loading indicator.
 
-| ![Button Group with Loading Indicator](/img/tutorial/buttons_group_loading.png) |
+| ![Button Group with Loading Indicator](/img/tutorial/en/buttons_group_loading_en.png) |
 |:--:|
-| *Buttons with loading indicator* |
+| *Button with loading indicator* |
 
 :::warning
 The buttons are only used for saving settings.  
