@@ -4,25 +4,18 @@ sidebar_position: 2
 
 # Free Version
 
-There is a free version of the **Attribut&co** module. Essentially, it is the same module but with limited functionality. Visually, the free version does not differ from the paid one, except that the module's title includes the **(free)** label. For example:
+Until you obtain and apply a valid license key, the module operates in the free version mode. Essentially, it is the same module but with limited functionality. Visually, the free version is identical to the paid version, except for the **(free)** label displayed next to the module name in the header. For example:
 
-**Attribut&co v3.2.8 (free)**.
+**Attribut&co v3.3.3 (free)**.
 
-The limitations of the free version concern changes to the database. You can perform any actions with **Attributes** or **Values**, just like in the paid version, but changes will not be saved. After reloading the page, everything will return to its original state.
+The limitations of the free version apply to database modifications. You can perform any actions with **Attributes** or **Values**, just like in the paid module, but changes will not be saved. After reloading the page, everything will revert to its original state.
 
-The free version is intended for exploring the module's functionality, evaluating the convenience of working with attributes, and verifying its compatibility with your OpenCart store.
-
-The terminology, descriptions, and characteristics of the free version are identical to those of the paid version.
+The free version is designed for evaluating the module's functionality, assessing usability when working with attributes, and verifying compatibility with your OpenCart store.
 
 :::info
-Some features in the free version are fully available, such as **drag-and-drop sorting** of **Groups** and **Attributes**.
-Some features will work on local machines with IP 127.0.0.1.
-:::
-
-:::danger
-Despite being free, installing a license is still required.
+Some features remain fully functional in the free version, such as **drag-and-drop sorting** of **Groups** and **Attributes**.
 :::
 
 :::tip
-For the free version, **domain name approval is not required**.
+The free version **does not require** domain name registration.
 :::

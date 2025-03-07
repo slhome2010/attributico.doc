@@ -4,105 +4,107 @@ sidebar_position: 19
 
 # FAQ
 
-These questions are frequently asked.
+These are frequently asked questions.
 
 <details>
-  <summary>Reinstalled the license. Followed the instructions. Still free version...!</summary>
+  <summary>I reinstalled the license, followed all the instructions, but it's still the free version...!</summary>
 
 Possible reasons:
 
-- Incorrect domain name. `domain.ru` and `www.domain.ru` are different domains.
-- Downloaded an old license archive instead of a new one.
-- License file was overwritten incorrectly (e.g., renamed a directory with uppercase letters).
-- The license must be downloaded from the platform where the module was purchased. Resources are not updated synchronously.
+- Incorrect domain name. `domain.ru` and `www.domain.ru` are considered different domains.
+- License key corruption during input or saving. Spaces and line breaks are ignored and removed programmatically.
+- Incorrect license storage location. The `attributico.key` file must be placed in the `/system/license/` directory.
 
 </details>
 
 <details>
-  <summary>I'm interested in purchasing the module. Will it conflict with DreamFilter?</summary>
+  <summary>I'm interested in purchasing the module. Will it conflict with the DreamFilter module?</summary>
 
-The module does not conflict with **DreamFilter**, **megaFilter**, or any other filter. It does not interact with the frontend or filters directly. Instead, it organizes **Attributes** in the database, which are then used by filters.
-
-</details>
-
-<details>
-  <summary>Can I specify a test domain now and add more later?</summary>
-
-Yes. You can update domains at any time, provided the number and characteristics comply with the [license](/license/license-install.md) terms.
+The module does not conflict with **DreamFilter**, **megaFilter**, or any other filter. It does not interact with the frontend or filters but only works with the database, organizing **Attributes**, which are later used by filters.
 
 </details>
 
 <details>
-  <summary>The module stopped working after migrating to a new hosting. Could this be the cause?</summary>
+  <summary>I can only specify a test domain for now. Can I add more later?</summary>
+
+Yes, you can update it at any time as long as the number of domains and their characteristics comply with the [license](/license/license-install.md) terms.
+
+</details>
+
+<details>
+  <summary>The module stopped working. I migrated to a new hosting provider. Could this be the reason?</summary>
 
 Try the following:
 
 - Clear the store cache.
-- Clear browser cache and cookies.
-- Refresh modifiers.
-- Reconfigure and save settings.
+- Clear your browser cache and cookies.
+- Refresh the modifiers.
+- Reapply and save the settings.
 
 </details>
 
 <details>
-  <summary>How to merge attribute values?</summary>
+  <summary>How do I merge attribute values?</summary>
 
-The module does not provide dedicated merging tools (e.g., Drag-and-Drop, context menu, or hotkeys) for values or templates.  
-This simplifies the module's design, and merging can be achieved via batch renaming instead.  
+The module does not support attribute value merging using Drag-and-Drop, context menus, or keyboard shortcuts.  
+This is intentional to keep the module simple, and because the same result can be achieved through regular renaming of values.
 
-To merge values or templates, simply edit the **Value** or **Template**. For details, see the [Editing](/module-features/editing.md) section.
+In essence, merging values or templates is just batch renaming, and this feature is already implemented. Simply edit the **Value** or **Template**.
+
+For more details, see the [Editing](/module-features/editing.md) section.
 
 </details>
 
 <details>
-  <summary>What steps should I take after parsing?</summary>
+  <summary>What is the workflow after parsing?</summary>
 
-The module does not enforce a strict workflow but provides tools to automate manual tasks.  
+The module does not enforce a specific workflow but provides functionality that simplifies manual work and tools for batch processing.
 
-One such tool is **[Category Attributes](/tools/category-attributes.md)**.  
+One such tool is [**Category Attributes**](/tools/category-attributes.md).
 
-:::info  
-In settings, set the **[`Method`](/settings/product.md)** to **"Add default only to empty"**.  
-Other options are self-explanatory.  
+:::info
+In the settings, set [**`Method`**](/settings/product.md) to **Add duty attributes only to empty ones**.  
+For other settings, the result is self-explanatory.
 :::
 
-Legend:  
+### Notation:
 
-- `C` = Category  
-- `P` = Product  
-- `A` = Attribute  
-- `V` = Attribute Value  
-- `D` = Default Template  
+- `C` — Category
+- `P` — Product
+- `A` — Attribute
+- `V` — Attribute Value
+- `D` — Duty Template
 
-Example:  
-Category `C1` contains product `P1` with **Attribute** `A1` (Value: `V1`).  
-After adding **Attribute** `A2` (Value: `V2`) to `P1` and parsing, products `P2` and `P3` are added with their own attributes.  
+For example, in category `C1`, there is a product `P1` with **Attribute** `A1`, which has **Value** `V1`.  
+You added **Attribute** `A2` with **Value** `V2`, and after parsing, two more products `P2` and `P3` were added with their own **Attributes** and corresponding **Values**.
 
-| ![Working with Unfilled Default Templates](/img/tutorial/attribute_category_1.svg) |  
-|:--:|  
-| *Diagram 1 – Working with Unfilled Default Templates*  
+| ![Working with empty Duty Templates](/img/tutorial/attribute_category_1.svg) |
+|:--:|
+| *Diagram 1 – Working with empty Duty Templates* |
 
-**Goal**: Unify **category attributes** so every product in `C1` has the same set of **Attributes**.  
-**Action**: Apply the **Category Attributes** tool.  
+Our goal is to unify **Category Attributes**, meaning every product in category `C1` should have the same set of **Attributes**.  
+We apply the **"Category Attributes"** tool.
 
-:::warning  
-Some values remain empty because the module cannot resolve ambiguities (e.g., **Attribute** `A1` might accept `V1` or `V4`).  
-:::  
+:::warning
+Some values remain empty because the module "does not know" what to fill in.  
+For example, **Attribute** `A1` can have **Values** `V1` or `V4`. Which one should be selected?
+:::
 
-**Solution**: Define **Default Templates**. The result:  
+To resolve this ambiguity, **Duty Templates** are used. If they are filled, the tool will produce the following result:
 
-| ![Working with Filled Default Templates](/img/tutorial/attribute_category_2.svg) |  
-|:--:|  
-| *Diagram 2 – Working with Filled Default Templates*  
+| ![Working with filled Duty Templates](/img/tutorial/attribute_category_2.svg) |
+|:--:|
+| *Diagram 2 – Working with filled Duty Templates* |
 
-All values are now consistently populated.  
+Now all **Values** are populated.
 
 </details>
 
 <details>
-  <summary>Can the module display attributes under product images on the homepage?</summary>
+  <summary>Can the module be modified to display attributes on the homepage below the product image?</summary>
 
-No. This module operates exclusively in the admin panel and does not interact with the frontend. Future advanced versions may include such features.  
-For frontend changes, consult your template/theme developers.  
+No. This module is designed for the admin panel and does not interact with the frontend.  
+Some features may be available in future advanced versions.  
+For now, this request should be directed to the theme (design) developers.
 
 </details>

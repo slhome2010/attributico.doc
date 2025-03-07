@@ -1,44 +1,33 @@
+---
+sidebar_position: 1
+---
+
 # License
 
-## License Validity
+## License Terms
 
-The license is valid for one domain and one test domain. It should be clear that the test domain is genuinely for testing purposes.
+The license applies to one domain and one test domain. It must be evident that the test domain is genuinely for testing purposes.
 
-The license is not generated automatically, so after purchasing the module, you must send a request confirming the domain names and PHP version to the personal email address on the site where you purchased the module.
+The license is not generated automatically, so after purchasing the module, you need to send a request confirming the domain names to the personal email address on the site where the module was purchased.
 
 :::warning
-If you change the domain name, you will have to pay for a new license because the license is **bound to the domain**, not the buyer. 🤷‍♂️
-Since I don’t have a license server, I can't track which domains are active and which are not.
+If you change the domain name, since the license is _"tied"_ to the domain rather than the buyer, you will have to pay for a new license.🤷‍♂️
+This is because I do not have a license server and cannot track which domain is active and which is not.
 :::
 
-## License Installation
+## Installing the License
 
-The module package includes a separate archive **License.zip**. This archive contains license files that, like the module files, are distributed in folders according to PHP versions.
-
-After downloading and extracting **License.zip**, follow these steps:
-1\. Select the folder corresponding to your PHP version.
-2\. Copy the contents of the folder over the site structure.
-3\. **Installing the license is mandatory**, even for the free version.
-4\. After domain approval and confirmation of license readiness, **re-download** the **License.zip** archive and reinstall the license.
+The obtained license key must be entered into the corresponding field on the *`Settings => General Settings`* tab, then apply the settings by clicking the [_Apply_](settings/button-group.md) button.
 
 :::info
-In future versions, the archive structure may change. However, the correct location for the license file remains:
+The license key is stored in the file:
 
 ```php
-/system/license/sllic.lic
+/system/license/attributico.key
 ```
 
 :::
 
-:::danger
-If the **sllic.lic** file is misplaced or not installed, you will see the following error message:
+If the key file is missing, the domain names do not match, or the key is corrupted, the module will operate in [_free_](license/free-version.md) mode. In this case, the label **(free)** will appear next to the module name and version, for example:
 
-```php
-Notice: Undefined variable: vendor in .....\www\admin\controller\module\attributico.php on line...
-```
-
-:::
-
-If the domain is not listed in the license file, the module will operate in **view mode**. In this case, the module's name and version will display **(free)**. For example:
-
-**Attribut&co v3.2.8 (free)**.
+**Attribut&co v3.3.3 (free)**.

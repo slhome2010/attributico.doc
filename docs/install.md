@@ -4,90 +4,74 @@ sidebar_position: 2
 
 # Installation
 
-1\. Download the module installation files from your available resource. You should receive two zip archives: `Attributico_v3.2.8.zip` and `License.zip`. The archive structure is described in [this](/technical-specifications/archive-content.md) article.
+## Steps
 
-2\. Extract the archive. Open the folder corresponding to [your PHP version](/technical-specifications/compatibility.md). Copy the contents of the `upload.../` folder, corresponding to your OpenCart version, over the site's folder structure.
+### Step 1: Download the Module
 
-3\. In the admin panel, go to *Extensions ⇒ Modules*. The "Attribut&co" module should appear. Install (activate) it.
+Download the installation files from the available source. You should have zip archive: `Attributico_v3.3.3.zip`. The archive structure is described in [this article](/technical-specifications/archive-content.md).
 
-4\. In the admin panel, navigate to *System ⇒ Users ⇒ User Groups* and set permissions for viewing and editing `module/attributico` or `extension/module/attributico` (for OpenCart versions >2.2).
+### Step 2: Extract and Copy Files
 
-5\. Extract the `License.zip` archive. Copy the contents of the folder corresponding to your PHP version over the site's folder structure.
+Extract the archive and open the folder corresponding to [your PHP version](/technical-specifications/compatibility.md). Copy the contents of the `upload.../` folder (matching your OpenCart version) over the site's folder structure.
 
-6\. In the admin panel, go to *Extensions ⇒ Extension Installer* and upload the files `attribut&co.2.x.ocmod.xml` and `autocomplete.ocmod.xml` (for OpenCart 2.x) or `attributico.3.x.ocmod.zip` (for OpenCart 3.x) from the `ocmod` folder.
+### Step 3: Activate the Module
 
-If you are using the OCTEMPLATE theme, do not perform this step. See the installation instructions for modifications below.
+In the admin panel, navigate to *Extensions ⇒ Modules*, where the "Attribut&co" module should appear. Install (activate) it.
 
-7\. In the admin panel, go to *Extensions ⇒ Modifications* and refresh the modifications.
+### Step 4: Set Permissions
 
-After completing these steps, the *Catalog ⇒ Attributes ⇒ Attribut&co* menu item should appear.
+In the admin panel, go to *System ⇒ Users ⇒ User Groups* and set view/edit permissions for:
 
-:::caution
-Clear the store and browser cache. The specifics of cache clearing for OpenCart 3.x are described, for example, [here](https://shopiweb.ru/opencart-3/kesh-opencart-3-ochistka-kesha/).
+- `module/attributico` or `extension/module/attributico` (for OpenCart >2.2)
+- `attributico/interlink`
+- `attributico/unit`
+
+### Step 5: Upload Modifications
+
+In the admin panel, go to *Extensions ⇒ Installer* and upload `attributico.3.x.ocmod.zip` (for OpenCart 3.x) from the `ocmod` folder.
+
+#### For OCTEMPLATE Users:
+
+Do NOT perform this step. See the modification installation instructions below.
+
+### Step 6: Refresh Modifications
+
+In the admin panel, go to *Extensions ⇒ Modifications* and update the modifications.
+
+After this, a new menu item should appear: *Catalog ⇒ Attributes ⇒ Attribut&co*.
+
+:::warning
+**Clear the cache!**
+Clear both the store cache and your browser cache. The specifics of clearing the cache for OpenCart 3.x are described [here](https://shopiweb.ru/opencart-3/kesh-opencart-3-ochistka-kesha/).
 :::
 
 :::warning
-If you have previously used an older version of the module and installed modifications directly into the `system` folder, you must remove them.
+If you previously used an older version of the module and installed modifications directly in the `system` folder, remove them.
 
-This means that the files `attribut&co.2.x.ocmod.xml` and `autocomplete.ocmod.xml` should not be present in your site's `system` folder.
+Make sure the following files are NOT in the `system` folder:
+
+```bash
+attribut&co.2.x.ocmod.xml
+autocomplete.ocmod.xml
+```
+
 :::
 
 :::info
-In some translated versions, the term `Extensions` may appear as `Add-ons`, and `Modifications` may be referred to as `Modifications Manager`.  
-The word `Attributes` is often translated as `Characteristics`.
+Some OpenCart translations may use different terminology:
+
+- "Extensions" may appear as "Add-ons."
+- "Modifications" may be listed as "Modification Manager."
+- "Attributes" might be translated as "Characteristics."
+
 :::
 
 :::tip
-For OCTEMPLATE users!
+**For OCTEMPLATE Users!**
 
-OCTEMPLATE uses a large number of modifications, so OpenCart's ocmod system may not have enough resources to install the module's modification.
+OCTEMPLATE uses many modifications, which may cause ocmod to run out of resources. To bypass this:
 
-To resolve this issue, follow these steps:
+- **Skip Step 5.**
+- Extract `install.xml` from `attributico.3.x.ocmod.zip`, rename it to `attributico.3.ocmod.xml`, and copy it to the `system` folder.
 
-Do not perform step 5 of the installation instructions.  
-For OpenCart versions below 3.0.x, copy the files `attribut&co.2.x.ocmod.xml` and `autocomplete.ocmod.xml` directly into the `system` folder of your site.  
-For OpenCart 3.0.x, extract the `install.xml` file from the `attributico.3.x.ocmod.zip` archive, rename it to `attributico.3.ocmod.xml`, and then copy it into the `system` folder.
-:::
-
-:::note
-Possible issues with OpenCart 1.5.x **(outdated)**  
-
-This module uses `jQuery UI - v1.11.4+`, while OpenCart 1.5.x uses `jQuery UI - v1.8`.  
-During installation, the older version will be replaced, as Attribut&co will not work otherwise.  
-As a result, some third-party modules may temporarily malfunction.
-:::
-
-## Update
-
-1\. After downloading the new version, extract the archive and copy the contents of the `upload.../` folder corresponding to your OpenCart version over the site's folder structure.
-
-2\. For OpenCart 2.x and 3.x, you must reinstall the modifications (`...ocmod.xml` or `...ocmod.zip`) as described above. Then, in the admin panel, go to *Extensions ⇒ Modifications* and refresh them.
-
-3\. When upgrading to a new version, you may need to deactivate (uninstall) the module and immediately activate it again in *Extensions ⇒ Modules*.  
-This operation will create additional database tables and new event handlers if they have been added.
-
-4\. Clear the [store cache](https://shopiweb.ru/opencart-3/kesh-opencart-3-ochistka-kesha/) and browser cache.
-
-5\. Edit and save the module settings again.
-
-## Uninstallation
-
-1\. In the admin panel, go to *Extensions ⇒ Modules*, find the "Attribut&co" module, and click "Uninstall".
-
-2\. For OpenCart 2.x, delete the files `attribut&co.2.x.ocmod.xml, autocomplete.ocmod.xml` from the `/system` folder.  
-For OpenCart 3.x, delete the files `attribut&co.2.x.ocmod.xml` from the `/system` folder if you copied them there.  
-Alternatively, in the *Extensions ⇒ Modifications* menu, remove everything related to "Attribut&co".
-
-### Database
-
-During module installation, the database will create a **category_attribute** table with fields  
-`` `category_id` INTEGER(11) NOT NULL`` and `` `attribute_id` INTEGER(11) NOT NULL.``
-
-Starting from version 2.0.1, an additional field `` `duty` TEXT NOT NULL`` is added to OpenCart's standard **attribute_description** table to store [Duty Templates](general-info/duty.md).
-
-Additionally, extra tables will be created for compatibility with future enhanced versions of the module.  
-The table structure can be viewed in the [diagram](technical-specifications/database.md).
-
-:::tip
-During the module removal process, no tables or fields are deleted. If this is critical for you, remove them manually, for example, using PhpMyAdmin.
 :::
