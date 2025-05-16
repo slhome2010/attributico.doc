@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Integration with the Product Form
 
-The module integrates with the OpenCart engine using `ocmod` modification files. The purpose of these files is described in the section [Archive Structure](/technical-specifications/archive-content.md). Instructions for installing modifications can be found in the section [Installation](/install.md).
+The module integrates with the OpenCart engine using `ocmod` modification files. The purpose of these files is described in the section [Archive Structure](/technical-specifications/archive-content.md). Instructions for installing modifications can be found in the section [Installation](/install-update/install.md).
 
 :::danger
 All actions described below, performed using this modifier, do not make changes to the Database. All modifications occur only in the browser, on the product form page.

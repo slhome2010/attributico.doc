@@ -36,7 +36,7 @@ Fatal error: Uncaught exception 'Exception'...
 This error occurs because the `category_attribute` table is missing in the database. You may have installed the modifier but not activated the module itself.
 
 **Solution**  
-Read the [Installation](/install.md) section of the documentation, paying special attention to step 3.
+Read the [Installation](/install-update/install.md) section of the documentation, paying special attention to step 3.
 
 ```php
 The module is not activated or the database structure is corrupted!  
@@ -47,7 +47,7 @@ Activate (or re-activate) the module in Extensions → Modules.
 This error occurs because a required database table or column is missing. It may have been accidentally deleted by you or third-party software.
 
 **Solution**  
-Deactivate the module and activate it again. See [Installation](/install.md).
+Deactivate the module and activate it again. See [Installation](/install-update/install.md).
 
 ## Conflicts with Other Modules {#error-conflict}
 
@@ -110,4 +110,4 @@ Two Attribut&co menu items appear...
 You have two modifiers installed: one in the `system/` folder and another installed via **Extensions → Extension Installer**.
 
 **Solution**  
-Read the [Installation/Update](/install.md) section and remove the extra modifier.
+Read the [Installation/Update](/install-update/install.md) section and remove the extra modifier.
