@@ -75,16 +75,16 @@ const config = {
                path: '1.0.0',
              }, */           
             "3.2.8": {
-              label: "v3.2.8",
-              //path: "1.0.0",
+              label: "v3.2.8",              
             },
             "3.3.2": {
-              label: "v3.3.2",
-              //path: "1.0.0",
+              label: "v3.3.2",              
             },
             "3.3.3": {
-              label: "v3.3.3",
-              //path: "1.0.0",
+              label: "v3.3.3",              
+            },
+            "3.4.0": {
+              label: "v3.4.0",              
             },
           },
           // includeCurrentVersion: false,
