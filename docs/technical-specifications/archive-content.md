@@ -36,7 +36,7 @@ Attributico_v3.4.0/
 
 ## Folder and File Purpose
 
-- `upload_v3.x/` folders with the module files for different OpenCart versions;
+- `upload/` folders with the module files for different OpenCart versions;
 - `attributico.3.x.ocmod.zip` the installation archive for the OpenCart versions 3.x;
 - `News/` folders with descriptions of changes, fixes and supporting materials;
 - `README.md` brief instructions on installing and using the module;
