@@ -86,8 +86,11 @@ const config = {
             "3.4.0": {
               label: "v3.4.0",              
             },
+            "3.4.2": {
+              label: "v3.4.2",              
+            },
           },
-          // includeCurrentVersion: false,
+           includeCurrentVersion: false,
         },        
         blog: false,
         theme: {
