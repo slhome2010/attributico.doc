@@ -3,6 +3,7 @@ sidebar_position: 11
 ---
 
 # Фильтр
+
 Какие наши действия при обнаружении ошибок в **Атрибутах** или, что гораздо хуже, в **Значениях**? Кто виноват и что делать?  
 Отловить товары, где есть ошибка, например, с помощью Mega Filter Pro. Зайти в каждый товар и исправить.  
 
@@ -42,7 +43,7 @@ sidebar_position: 11
 
 Поисковая строка фильтра теперь выглядит так:
 
-| ![Search filter](/img/tutorial/en/search_filter_en.png) |
+| ![Search filter](/img/tutorial/search_filter_3.4.2_ru.png) |
 |:--:|
 | *Search filter* |
 

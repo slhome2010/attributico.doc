@@ -3,6 +3,7 @@ sidebar_position: 11
 ---
 
 # Filter
+
 What do we do when errors are found in **Attributes**, or worse, in **Values**? Who is responsible, and what should be done?  
 One way is to catch products with errors using Mega Filter Pro, then go into each product and fix it manually.
 
@@ -42,7 +43,7 @@ This means the search won't occur with every typed letter. Instead, after enteri
 
 The filter search bar now appears as follows:
 
-| ![Search filter](/img/tutorial/en/search_filter_en.png) |
+| ![Search filter](/img/tutorial/en/search_filter_3.4.2_en.png) |
 |:--:|
 | *Search filter* |
 

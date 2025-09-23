@@ -4,9 +4,8 @@ sidebar_position: 25
 
 # What's New in This Version
 
-1. Most importantly, the module’s file and folder structure has been changed. The module can now be installed using the OpenCart installer, eliminating the need to overwrite files via FTP.
+1. Improve filter control;
 
-2. Reduction of modification code in favor of events. Benefits include:
+2. Code optimization for collaboration with Attributipro;
 
-- Fewer conflicts;
-- Improved compatibility with a potential future upgrade to OpenCart 4.
+3. Improvement of the module for working with the redis cache driver.

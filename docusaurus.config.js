@@ -87,7 +87,7 @@ const config = {
               label: "v3.4.0",              
             },
           },
-          includeCurrentVersion: false,
+          // includeCurrentVersion: false,
         },        
         blog: false,
         theme: {
