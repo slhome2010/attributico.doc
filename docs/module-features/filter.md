@@ -62,7 +62,7 @@ If **Templates** or **Values** have already been loaded, the search will include
 Searching in **Only Values** mode has a higher priority but is also the slowest, as it scans and loads all tree nodes.
 
 :::info
-Filter visibility is managed by clicking the ⨈ icon on the right.  
+Filter visibility is managed by clicking the "Filter" button on the right.  
 
 When clicking ![Apply](/img/tutorial/apply_button.png) or ![Save](/img/tutorial/save_button.png), the filter state is saved for each tree.
 :::
