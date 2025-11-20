@@ -26,14 +26,16 @@ const config = {
   projectName: 'attributico.doc', // Usually your repo name.
 
   onBrokenLinks: 'warn',
-  //onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  //onBrokenLinks: 'throw',  
 
   markdown: {
     format: 'detect',
     mermaid: true,
     mdx1Compat: {
       // comments: false,
+    },
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // Переносим сюда!
     },
   },
 
@@ -93,7 +95,7 @@ const config = {
               label: "v3.4.3",              
             },
           },
-           //includeCurrentVersion: false,
+           includeCurrentVersion: false,
         },        
         blog: false,
         theme: {
