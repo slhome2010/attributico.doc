@@ -65,6 +65,6 @@ Do not select too many categories at once. Hosting environments may have executi
 
 Once the task is completed, a confirmation message will be displayed, for example:
 
-✅ Success! Operation completed. Category attributes generated: 12. Attributes added to products: 758.
+`✅ Success! Operation completed. Category attributes generated: 12. Attributes added to products: 758.`
 
 For more details on how this tool works, see the FAQ section — [What steps should be taken after parsing?](/faq.mdx).
