@@ -6,14 +6,40 @@ sidebar_position: 9
 
 This tool is especially useful for those installing the module on an existing store, particularly one with a large number of categories and products, as well as for those working with data parsing. Manually creating **Category Attributes** is a time-consuming process, and when parsing, it's often unclear which **Attributes** a product will include.
 
-| ![Category attributes](/img/tutorial/tools_category_settings.png) |
+| ![Category attributes](/img/tutorial/en/tools_category_attribute_en.png) |
 |:--:|
 | *Create category attributes* |
 
 Be sure to select categories in the filter tree. The tool will collect all **Attributes** from the products belonging to the selected category and group them into **Category Attributes**.
 
 :::warning
-If a product belongs to multiple categories, the **Attributes** of all these categories will be combined for each of them. Make sure your category structure is well-organized, or remember to remove any unnecessary attributes after the task is completed.
+
+**About Possible “Attribute Spillover” Between Categories**
+
+If the same product belongs to several categories at once, its **Attributes** will be counted in *all* of those categories when running the `“Create category attributes”` operation.
+
+Example:  
+The product “iPhone 15” is placed in categories:  
+→ Smartphones (main)  
+→ New arrivals  
+→ Promotions  
+
+After running the tool, the attributes of this phone (color, memory, processor, etc.) will also appear in the “New arrivals” and “Promotions” categories — even if they are not needed there.
+
+This is a specific behavior of OpenCart and all attribute-related modules.
+
+## How to reduce spillover (recommended method)
+
+1. On ocStore and all its builds — the module automatically detects this and collects attributes ONLY from the product’s main category. Spillover is almost eliminated!  
+2. On clean OpenCart — organize your category structure and leave each product only in one (main) category.
+
+## Recommendations for using the tool
+
+- After the module is installed or after mass importing products — run it **once** for sure.  
+- Then run it only when necessary (new products, new attributes, changing the main category).
+
+Don’t forget to remove unnecessary attributes from categories after the task is completed.
+
 :::
 
 If the **Assign category attributes to products** option is enabled, the tool will also add **Attributes** and their **Values** to all products in the selected category.

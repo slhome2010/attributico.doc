@@ -90,7 +90,7 @@ const config = {
               label: "v3.4.2",              
             },
           },
-           includeCurrentVersion: false,
+           //includeCurrentVersion: false,
         },        
         blog: false,
         theme: {
