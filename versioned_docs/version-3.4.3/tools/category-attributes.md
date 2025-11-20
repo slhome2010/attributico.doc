@@ -48,11 +48,15 @@ The assignment or addition of **Attributes** to products follows the settings in
 
 Adding **Category Attribute Values** to products follows the [*`Method`*](/settings/product.md) specified in [Adding Attribute Values to Products](/settings/product.md).
 
+:::note  
+**Attribute Values** for substitution are sourced from the [**Duty Template**](/general-info/duty.md), provided it is not empty.
+
+If you need to add **Attributes** even with empty **Values**, select the [*`Method`*](/settings/product.md) `Keep`.  
+:::
+
 :::tip
 You may have already created **Category Attributes**, for example, using the [Drag-and-Drop method](/module-features/category-attributes.md), and only need to add them to products. In this case, disable the **Generate a set of attributes for the category** option and [run the task](/tools/settings-and-launch.md) with only the **Assign category attributes to products** option enabled!
 :::
-
-Adding [Duty Templates](/general-info/duty.md) only occurs if the **Duty Templates** themselves contain information. If you need to add **Attributes** even with empty **Values**, choose the [*`Method`*](/settings/product.md) `Keep`.
 
 :::danger
 For large stores:  

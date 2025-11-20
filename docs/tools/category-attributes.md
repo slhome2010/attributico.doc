@@ -46,21 +46,25 @@ If the **Assign category attributes to products** option is enabled, the tool wi
 
 The assignment or addition of **Attributes** to products follows the settings in [Adding/Removing Category Attributes](/settings/category.md).
 
-Adding **Category Attribute Values** to products follows the [*`Method`*](/settings/product.md) specified in [Adding Attribute Values to Products](/settings/product.md).
+The addition of **Category Attribute Values** to a product is performed according to the [*`Method`*](/settings/product.md) specified in the settings under [Adding Attribute Values to Products](/settings/product.md).
+
+:::note  
+**Attribute Values** for substitution are sourced from the [**Duty Template**](/general-info/duty.md), provided it is not empty.
+
+If you need to add **Attributes** even with empty **Values**, select the [*`Method`*](/settings/product.md) `Keep`.  
+:::
 
 :::tip
 You may have already created **Category Attributes**, for example, using the [Drag-and-Drop method](/module-features/category-attributes.md), and only need to add them to products. In this case, disable the **Generate a set of attributes for the category** option and [run the task](/tools/settings-and-launch.md) with only the **Assign category attributes to products** option enabled!
 :::
 
-Adding [Duty Templates](/general-info/duty.md) only occurs if the **Duty Templates** themselves contain information. If you need to add **Attributes** even with empty **Values**, choose the [*`Method`*](/settings/product.md) `Keep`.
-
-:::danger
+:::danger  
 For large stores:  
-Do not select too many categories at once. Hosting environments may have execution time limits, increasing the risk of operation failure due to timeouts.
+Do not select too many categories at once. There’s a risk that hosting restrictions on script execution time could cause the server to interrupt the operation due to a timeout.
 :::
 
 Once the task is completed, a confirmation message will be displayed, for example:
 
-✅ Success! Operation completed. Category attributes generated: 12. Attributes added to products: 758.
+`✅ Success! Operation completed. Category attributes generated: 12. Attributes added to products: 758.`
 
 For more details on how this tool works, see the FAQ section — [What steps should be taken after parsing?](/faq.mdx).
