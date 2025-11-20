@@ -4,8 +4,10 @@ sidebar_position: 25
 
 # What's New in This Version
 
-1. Improve filter control;
+1. Changes in the operation algorithm of several tools. The updates affected:
 
-2. Code optimization for collaboration with Attributipro;
+- Removing empty values;
+- Defragmentation;
+- Category attributes;
 
-3. Improvement of the module for working with the redis cache driver.
+During real-world use it turned out that on some websites these tools function incorrectly.
