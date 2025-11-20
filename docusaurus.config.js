@@ -89,6 +89,9 @@ const config = {
             "3.4.2": {
               label: "v3.4.2",              
             },
+            "3.4.3": {
+              label: "v3.4.3",              
+            },
           },
            //includeCurrentVersion: false,
         },        
