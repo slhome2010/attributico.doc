@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknew_attributico_su=self.webpackChunknew_attributico_su||[]).push([[2589],{72589:(t,u,e)=>{e.r(u)}}]);
