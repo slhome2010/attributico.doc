@@ -1,7 +1,7 @@
 {
-  "latest_version": "3.4.3",
-  "news": "<h4>Есть обновления!</h4><p class='lead'>Версия 3.4.3.</p><p>1. Изменение алгоритма работы некоторых инструментов. Изменения коснулись: <ul><li>Удаление пустых значений;</li><li>Дефрагментация;</li><li>Атрибуты категорий;</li></ul>В процессе эксплуатации выяснилось, что на некоторых сайтах инструменты работают некорректно.</p>",
+  "latest_version": "3.5.0",
+  "news": "<h4>Есть обновления!</h4><p class='lead'>Версия 3.5.0.</p><p>1. Полный отказ от OCMOD. Теперь все через регистрацию событий. Как обновиться: <a href='https://slhome2010.github.io/attributico.doc/ru/install-update/update' target='_blank'>документация</a>.<br>2. Улучшен алгоритм работы инструмента 'Объединение дублей'. Работает быстрее и эффективнее. Добавлено логирование.<br>3. Улучшен алгоритм работы всех функций модуля для формы товара.<br>4. Синхронизированы библиотечные классы для совместимости с Attribut&pro и новыми версиями OpenCart.</p>",
   "well": "<p class='lead'>Вы используете последнюю версию модуля <span>Attribut<b style='color: #2199C7;'>&</b>co</span>!</p>",
   "links": "<div class='form-group'><h4>Обновления будут доступны по следующим ссылкам:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://liveopencart.ru/opencart-moduli-shablony/moduli/filtryi/attribut-co-opencart-atributyi-eto-legko'><span class='txt_orange'>Liveopencart.ru</span></a></li></ul></div>",
-  "copyright": "<div class='form-group'><h4>Документация:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://slhome2010.github.io/attributico.doc/ru/'><span class='txt_orange'>https://slhome2010.github.io/attributico.doc/</span></a></li></ul></div><br/><p>Copyright &copy; 2016-2025&nbsp; Comtronics</p>"  
+  "copyright": "<div class='form-group'><h4>Документация:</h4><ul class='list-group'><li class='list-group-item'><a class='link' target='_blanc' href='https://slhome2010.github.io/attributico.doc/ru/'><span class='txt_orange'>https://slhome2010.github.io/attributico.doc/</span></a></li></ul></div><br/><p>Copyright &copy; 2016-2025&nbsp; Comtronics</p>"
 }

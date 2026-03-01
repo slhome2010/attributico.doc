@@ -1,5 +1,5 @@
 ---
-sidebar_position: 24
+sidebar_position: 3
 ---
 
 # Uninstallation
@@ -8,17 +8,12 @@ sidebar_position: 24
 
 In the admin panel:
 
-- Navigate to *Extensions ⇒ Modules*  
+- Navigate to _Extensions ⇒ Modules_
 - Click "Uninstall" next to the "Attribut&co" module
 
-## Step 2: Removing Modifications
+## Step 2: Deleting Module Files
 
-- For OpenCart 3.x: delete the `attribut&co.3.x.ocmod.xml` file (if it was manually copied to `/system`)  
-  Alternatively, remove the modifications under *Extensions ⇒ Modifications*
-
-## Step 3: Deleting Module Files
-
-- Go to *Extensions ⇒ Extension Installer*  
+- Go to _Extensions ⇒ Extension Installer_
 - Delete all `attributico3.x.ocmod.zip` entries from the installation history
 
 :::danger

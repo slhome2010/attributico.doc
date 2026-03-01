@@ -44,14 +44,14 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru'],
+    locales: [ 'en', 'ru' ],
   },
-  plugins: [[require.resolve('docusaurus-lunr-search'), {
-    languages: ['en', 'ru'], // language codes
+  plugins: [ [ require.resolve('docusaurus-lunr-search'), {
+    languages: [ 'en', 'ru' ], // language codes
     highlightResult: true,
     indexBaseUrl: true,
     maxHits: 10,          // Пример других опций
-    excludeRoutes: ['/blog']
+    excludeRoutes: [ '/blog' ]
     //includeRoutes: ['/docs/**'],
     //excludeTags: ['nav', 'footer'],
     /* fields: {
@@ -59,7 +59,7 @@ const config = {
       content: { boost: 1 },
       keywords: { boost: 3 }
     } */
-  }]],
+  } ] ],
   presets: [
     [
       'classic',
@@ -75,28 +75,28 @@ const config = {
             /*  current: {
                label: 'v1.0.0',
                path: '1.0.0',
-             }, */           
+             }, */
             "3.2.8": {
-              label: "v3.2.8",              
+              label: "v3.2.8",
             },
             "3.3.2": {
-              label: "v3.3.2",              
+              label: "v3.3.2",
             },
             "3.3.3": {
-              label: "v3.3.3",              
+              label: "v3.3.3",
             },
             "3.4.0": {
-              label: "v3.4.0",              
+              label: "v3.4.0",
             },
             "3.4.2": {
-              label: "v3.4.2",              
+              label: "v3.4.2",
             },
             "3.4.3": {
-              label: "v3.4.3",              
+              label: "v3.4.3",
             },
           },
-           includeCurrentVersion: false,
-        },        
+          //includeCurrentVersion: false,
+        },
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
@@ -198,7 +198,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Comtronics, Built with Docusaurus.`,
+        copyright: `Copyright © ${ new Date().getFullYear() } Comtronics, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
