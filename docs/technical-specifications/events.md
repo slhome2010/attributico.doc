@@ -12,16 +12,18 @@ OpenCart uses an event system that allows developers to "subscribe" to specific 
 
 ## What Handlers Attribut&co Has
 
-| **Handler** | **Action** |
-|:---|:---|
-| `attributico_add_attribute_after` | Data synchronization after adding a new attribute |
-| `attributico_add_product_after` | Data synchronization after adding a new product |
-| `attributico_copy_product_after` | Data synchronization after adding a new product by copying |
-| `attributico_delete_attribute_after` | Data synchronization after deleting a product |
-| `attributico_edit_attribute_after` | Data synchronization after editing an attribute |
-| `attributico_edit_attribute_before` | Data synchronization before editing an attribute |
-| `attributico_edit_product_after` | Data synchronization after editing a product |
-| `attributico_edit_product_before` | Data synchronization before editing a product |
+| **Handler**                          | **Action**                                                   |
+| :----------------------------------- | :----------------------------------------------------------- |
+| `attributico_add_attribute_after`    | Data synchronization after adding a new attribute            |
+| `attributico_add_product_after`      | Data synchronization after adding a new product              |
+| `attributico_copy_product_after`     | Data synchronization after adding a new product by copying   |
+| `attributico_delete_attribute_after` | Data synchronization after deleting a product                |
+| `attributico_edit_attribute_after`   | Data synchronization after editing an attribute              |
+| `attributico_edit_attribute_before`  | Data synchronization before editing an attribute             |
+| `attributico_edit_product_after`     | Data synchronization after editing a product                 |
+| `attributico_edit_product_before`    | Data synchronization before editing a product                |
+| `attributico_add_script`             | Injecting the module's JavaScript file into the product page |
+| `attributico_product_form_before`    | Injecting additional fields into the product form data       |
 
 :::warning
 Changes made by third-party extensions are not tracked and processed.
