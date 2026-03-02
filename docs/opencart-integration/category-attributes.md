@@ -9,11 +9,17 @@ Integration with the product page allows partial automation of the process of ad
 Adding **Category Attributes** occurs at the moment the product is "linked" to a specific category or when its visibility in the category is set.
 Physically, this happens when a checkbox next to a category is selected, or when the Main Category is changed on the **Links** tab (Ocstore), or when a category is selected from the list (OpenCart).
 
+| ![Category link](/img/tutorial/en/v350/category_link.png) |
+| :-------------------------------------------------------: |
+|                      _Category link_                      |
+
 Removing **Category Attributes** occurs when the product is "unlinked" from a category. The removal must be confirmed in a pop-up window.
 
 Adding **Category Attribute Values** to a product follows the **`Method`** set in the settings of [Adding Attribute Values to a Product](/settings/product.md) or the [**`Overridden Method`**](/opencart-integration/method-inserting.md).
 
-It is now possible to add **Attributes** from all categories to which the product is linked with a single button directly within the product form.
+To add all **Attributes** from all categories to which a product is linked, use the `Category Attributes` button.
+![Green button](/img/tutorial/en/v350/green_button.png)
+
 The button's function is independent of the setting [Add category attributes to products](/settings/category.md).
 
 :::info
