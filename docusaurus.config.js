@@ -72,13 +72,6 @@ const config = {
           // editUrl: 'https://github.com/slhome2010/new.attributico.su/',
           // lastVersion: 'current',
           versions: {
-            /*  current: {
-               label: 'v1.0.0',
-               path: '1.0.0',
-             }, */
-            "3.2.8": {
-              label: "v3.2.8",
-            },
             "3.3.2": {
               label: "v3.3.2",
             },
@@ -94,8 +87,11 @@ const config = {
             "3.4.3": {
               label: "v3.4.3",
             },
+            "3.5.0": {
+              label: "v3.5.0",
+            },
           },
-          //includeCurrentVersion: false,
+          includeCurrentVersion: false,
         },
         blog: false,
         theme: {
