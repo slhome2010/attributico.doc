@@ -22,13 +22,13 @@ When hierarchy mode is enabled, the reverse rule also applies – if all child c
 
 Given the above, if recursion and hierarchy are not needed, and a custom set of categories is required, the **Auto-selection of subcategories with hierarchy consideration** mode should be disabled. For quick control over this mode, in the **Categories** tree, the **Settings** context menu includes the **Consider hierarchy** option.
 
-| ![Hierarchical multi-selection](/img/tutorial/en/v350/hierarchy.png) |
-| -------------------------------------------------------------------- |
-| _Hierarchical multi-selection_                                       |
+| ![Hierarchical multi-selection](/img/tutorial/en/v350/hierarchy_en.png) |
+| :---------------------------------------------------------------------: |
+|                     _Hierarchical multi-selection_                      |
 
-| ![Operative setting of inheritance](/img/tutorial/en/v350/hierarchy_operative.png) |
-| ---------------------------------------------------------------------------------- |
-| _Operative setting of inheritance_                                                 |
+| ![Operative setting of inheritance](/img/tutorial/en/v350/hierarchy_operative_en.png) |
+| :-----------------------------------------------------------------------------------: |
+|                          _Operative setting of inheritance_                           |
 
 :::warning  
 Actions are always performed in relation to the target category, regardless of whether it is selected. The target category is the one where you drag and drop or copy-paste an attribute, which then opens on the right side of the tree with all its **Category Attributes**.  
