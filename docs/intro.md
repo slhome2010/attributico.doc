@@ -24,33 +24,43 @@ Product Category
 
 Representing the structure of attributes and values in the form of trees.
 
-## Capabilities
+## Key Capabilities
 
-- Creating new groups and attributes in the same tree;
-- Drag-and-drop and copy-paste technologies:
-  - Copying attributes from one group to another;
-  - Moving attributes from group to group (changing the group);
-  - Drag-and-drop sorting of groups and attributes within a group;
-  - Drag-and-drop adding attributes to a category;
-  - Moving attributes from one category to another (changing the category);
-  - Merging attributes (combining) without losing values and links;
-- Filtering and searching for groups, attributes and attribute values in the tree;
-- Editing groups, attributes, templates and values;
-- Substituting the "Default Template" when adding an attribute to a product;
-- Batch substitution of the "Default Template" in products, when adding an attribute to a category;
-- Managing the method of adding values ​​and templates to the product;
-- Quick viewing of products filtered by attribute or value;
-- A set of tools for ordering attributes:
-  - Finding and deleting empty attribute values;
-  - Removing links to non-existent attributes;
-  - Defragmentation of attributes. Preparing a group for parsing;
-  - Deleting attributes not associated with any product;
-  - Merging attribute duplicates without losing links;
-  - Automatic formation of category attributes;
-  - Batch replacement of the attribute value separator;
-  - Changing the case of the first letter of groups, attributes and attribute values;
-- Multilingualism, the ability to work with multiple languages in parallel;
-  - The ability to clone attributes, groups or values of one language into another;
+🚀 **Absolute Clarity & Control**
+Your entire structure of attributes and values is displayed logically in a convenient tree format. Create new groups and attributes on the fly within a single window. Instantly find what you need with fast in-tree filtering and search.
+
+✨ **Intuitive Visual Management**
+Forget tedious manual input with full Drag-and-Drop and Copy-Paste support:
+
+- **Drag and Drop** attributes between groups or categories effortlessly.
+- **Sort** lists with a simple movement of your mouse.
+- **Merge** attributes seamlessly without losing existing values or product links.
+- Assign entire batches of attributes to categories with a single drag action.
+
+⚡ **Batch Processing & Automation**
+Eliminate repetitive tasks when managing product data:
+
+- Set up a "Default Template" and the module will automatically insert the correct value upon adding an attribute to a product.
+- Add attributes to all products within a specific category in just a few clicks.
+- Manage template insertion methods flexibly at the product level.
+- Instantly view products filtered by a specific attribute or value.
+- Automatically generate attributes for selected categories.
+
+🧹 **Powerful Database Cleaning Tools**
+Maintain a pristine and optimized database with a unique set of maintenance tools:
+
+- Smart search and removal of database "junk": empty values, unused attributes, and broken links.
+- One-click merging of duplicate attributes.
+- Batch case conversion (e.g., Capitalizing the first letter of hundreds of values at once).
+- Easy batch replacement of attribute value separators.
+- Attribute defragmentation to perfectly prepare your data for parsing and importing.
+
+🌍 **Effortless Multilingual Support**
+
+- Add any number of languages: all new groups and attributes will automatically **synchronize** across their respective language trees.
+
+- Work with multiple languages simultaneously and smoothly.
+- **Clone** structures (groups, attributes, or values) from one language to another instantly, drastically speeding up the localization of your store.
 
 :::tip
 If you want something more, you should check out the professional module [**Attribut&pro**](https://slhome2010.github.io/attributipro.doc/)!
