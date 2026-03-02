@@ -4,61 +4,64 @@ sidebar_position: 4
 
 # Deleting Values
 
-The operation can be performed via the [context menu](/module-features/context-menu.md) or using the `Del` key. You can delete a **Value**, **Template**, or multiple items at once (using [multi-select](/module-features/tree-features.md)).
+The operation can be performed via the [context menu](/module-features/context-menu.md) or using the `Del` key. You can delete a **Value**, a **Template**, or multiple items at once (using [multi-selection](/module-features/tree-features.md)).
 
 This operation is actually quite complex. You need to fully understand the mechanism behind pressing a single key.
 
-Remember that **Values** or product characteristic descriptions are regular text fields linked to a specific product. They do not have unique IDs. This means they are stored as plain text in each product's database entry. Therefore, they can only be deleted from products. Essentially, deleting **Values** means removing the **Attribute** from the product if the **Attribute's Value** matches the given sample.
+Remember that **Values** or product characteristic descriptions are regular text fields linked to a specific product. They do not have unique IDs. This means they are stored as plain text within each product in the database. Therefore, they can only be deleted from products.
 
-For example, suppose there are products where the **Attribute** `Test Attribute 3.1` has the **Value** `test value 3.2.1`.
+:::info
+Essentially, deleting **Values** is the operation of removing an **Attribute** from a product if the **Value** of this **Attribute** matches the specified sample.
+:::
 
-And other products where the **Attribute** `Test Attribute 3.1` has the **Value** `test value 3.2.2`.
+Suppose there is a product or products where the **Attribute** `Test attribute 3.1` has the **Value** `test value 3.2.1`.
 
-We need to remove **Attribute** `Test Attribute 3.1` from all products where it has the **Value** `test value 3.2.1`.
+And there is a product or products where the **Attribute** `Test attribute 3.1` has the **Value** `test value 3.2.2`.
 
-If we did this manually, we would have to open each product, review the list of **Attributes** and **Values**, and click **Delete** if the value matches `test value 3.2.1`.
+We need to remove the **Attribute** `Test attribute 3.1` from all products if it has the **Value** `test value 3.2.1`.
+
+If we were to do this manually, we would have to open each product, review the list of **Attributes** and **Values**, and click the **Delete** button if the value matched `test value 3.2.1`.
 
 | ![Manually deleting Values](/img/tutorial/en/delete_value_en.png) |
-|:--:|
-| *Manually deleting Values* |
+| :---------------------------------------------------------------: |
+|                    _Manually deleting Values_                     |
 
 | ![Manually no deleting Values](/img/tutorial/en/no_delete_value_en.png) |
-|:--:|
-| *Manually no deleting Values* |
+| :---------------------------------------------------------------------: |
+|                        _Skipping upon mismatch_                         |
 
 Now, this operation can be performed with a single click for all products.
 
-Everything would be simple if a product had only one **Value** per **Attribute**, but often, there are [multiple values](/general-info/values-templates.md). What if we also have products where **Attribute** `Test Attribute 3.1` has **Value** `test value 3.2.1/test value 3.2.2`? Should we delete it or keep it?
+## Deleting Multiple Values
+
+Everything would be fine if the product had only one **Value** (one characteristic for a single **Attribute**), but often, there are [multiple values](/general-info/values-templates.md). What should we do if we have a product or products where the **Attribute** `Test attribute 3.1` has a compound **Value** `test value 3.2.1/test value 3.2.2`? Delete it or keep it?
 
 | ![Deleting multiple values](/img/tutorial/en/delete_or_not_delete_en.png) |
-|:--:|
-| *Deleting multiple values* |
+| :-----------------------------------------------------------------------: |
+|                        _Deleting multiple values_                         |
 
 To avoid ambiguity, the module provides several deletion modes.
 
-Deleting **Templates** (nodes under **Templates**) is always done by exact field matching in the product.
+Deleting **Templates** (nodes with the parent **Templates**) is always done by an exact match of the field in the product with the entire **Template**.
 
-Deleting **Values** (nodes under **Values**) depends on the [Value Comparison](/settings/comparison.md) setting.
-
-In any case, deletion is performed by checking if the **Value** sample exists in the product's field. The setting allows comparison with each **Value** separated by a delimiter.
+Deleting **Values** (nodes with the parent **Values**) depends on the [Value Comparison](/settings/comparison.md) setting. In any case, this is deletion by the occurrence of a sample (**Value**) within the product field. The setting allows comparing each **Value** written separated by a delimiter against the sample.
 
 | ![Auto deleting Template](/img/tutorial/en/by_exact_match_en.png) |
-|:--:|
-| *By Exact Match* |
+| :---------------------------------------------------------------: |
+|                         _By Exact Match_                          |
 
 | ![Auto deleting Value](/img/tutorial/en/by_substring_match_en.png) |
-|:--:|
-| *By Substring Matching* |
+| :----------------------------------------------------------------: |
+|                      _By Substring Matching_                       |
 
 ## Difference Between Deleting **Templates** and **Values**
 
 :::tip
-Deleting a **Template** means removing an exact match of the field in the product.
+Deleting a **Template** means deleting by an exact match of the field in the product with the sample.
 
-Deleting a **Value** means removing the sample wherever it appears in the product field.
+Deleting a **Value** means deleting by the occurrence of the sample in the product field.
 :::
 
 :::danger
 ⚠ **Caution!** If you delete **Values**, all **Templates** containing the selected **Value** will also be deleted.  
 :::
-
