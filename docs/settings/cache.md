@@ -8,8 +8,11 @@ During module operation, it was discovered that on stores with a large number of
 
 Clearing the cache removes all files related to tree structures, specifically files named `cache.attributico...`. Other cache files remain unaffected.
 
+Managing the clearing or reloading of the cache is done via the "Clear Cache" button in the [_`Button group`_](/settings/button-group.md).
+Clicking the "Clear Cache" button clears or reloads the cache, depending on the state of the "Attribute tree cache" checkbox in the settings under the [_`General`_](/settings/main-settings.md) tab.
+
 :::warning
-If caching is not disabled in the settings under the [*`General`*](/settings/main-settings.md) tab when using this tool, the cache will be reloaded instead of being cleared.  
+If caching is not disabled in the settings under the [_`General`_](/settings/main-settings.md) tab when using this tool, the cache will be reloaded instead of being cleared.
 
 To completely remove the cache, uncheck this option in the settings and make sure to save the changes.
 :::
