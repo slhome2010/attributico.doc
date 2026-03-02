@@ -51,4 +51,9 @@ Representing the structure of attributes and values in the form of trees.
   - Changing the case of the first letter of groups, attributes and attribute values;
 - Multilingualism, the ability to work with multiple languages in parallel;
   - The ability to clone attributes, groups or values of one language into another;
-  
+
+:::tip
+If you want something more, you should check out the professional module [**Attribut&pro**](https://slhome2010.github.io/attributipro.doc/)!
+
+You can also view the [module comparison chart](/compare-modules.md).
+:::
